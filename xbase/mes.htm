@@ -1,0 +1,130 @@
+<div class="descr">
+
+	<div class="brd">
+
+		<div class="nametimedate">
+		
+			<p><span class="imya">%NAME%</span>
+				<span class="vremya">Время:&nbsp;%TIME%</span>
+				<span class="data">Дата:&nbsp;%DATE%</span>
+				<span class="nomer">СООБЩЕНИЕ:&nbsp;№%MESS_ID%</span></p>
+			<p class="pochta">e-mail:&nbsp;<a href="mailto:%EMAIL%">%EMAIL%</a></p>
+			
+		</div>
+	
+		<div class="fotomes">
+		
+			<img class="ft1" src="http://shevkunenko.ru/img/xbase/soobshenie.png">
+		
+			%MESSAGE%
+				
+		</div>
+    
+		<center>		
+
+			<p class="lay1 knp click">
+				<a href="#1" onclick="inverse_elem('nwc')"
+					title="добавить комментарий к сообщению">
+					<span>ДОБАВИТЬ КОММЕНТАРИЙ К  №%MESS_ID%</span></a>
+			</p>
+ 
+		</center>
+
+		<form id="nwc" style="display:none" action="%ACTION%" method="post">
+			
+			<div id="tr1_%MESS_ID%" class="formaverh">
+				
+				<p class="avatar">Ваше имя&nbsp;:&nbsp;
+					<input type="text" name="name" size="27" class="input" maxlength="30"></p>
+					
+			</div>
+				
+			<div id="tr2_%MESS_ID%" class="formaverh">
+		
+				<p class="pochta" style="margin-right:40px;">Ваш e-mail&nbsp;:&nbsp;
+					<input type="text" name="email" size="27" class="input" maxlength="40"></p>
+				<p class="otvetmail">
+					<a href="#1" onclick="alert('Если данная опция установлена, то комментарии, оставляемые на Ваше сообщение, будут отправляться на указанный Вами e-mail.')">Отвечать на Вашу почту&nbsp;:&nbsp;</a>
+					<input type="checkbox" name="get_mail" class="input"></p>
+					
+			</div>
+			
+			<h2>Текст комментария на сообщение №%MESS_ID%</h2>
+				
+			<div id="tr4_%MESS_ID%" style="text-align:center;">
+				
+				<textarea name="message" id="mess%MESS_ID%" cols="62" rows="6"></textarea>
+					<br>
+					{UBB|
+					<a href="#1" onclick="addubb('mess%MESS_ID%',1)"><img src="graph/ubb/bold.gif" 
+						alt="Полужирный текст" title="Полужирный текст"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',2)"><img src="graph/ubb/italic.gif" 
+						alt="Курсивный текст" title="Курсивный текст"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',3)"><img src="graph/ubb/underline.gif" 
+						alt="Подчеркнутый текст" title="Подчеркнутый текст"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',4)"><img src="graph/ubb/cross.gif" 
+						alt="Перечеркнутый текст" title="Перечеркнутый текст"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',5)"><img src="graph/ubb/quote.gif" 
+						alt="Цитировать" title="Цитировать"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',6)"><img src="graph/ubb/url.gif" 
+						alt="URL ссылка" title="URL ссылка"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',7)"><img src="graph/ubb/email.gif" 
+						alt="Ссылка на e-mail" title="Ссылка на e-mail"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',8)"><img src="graph/ubb/image.gif" 
+						alt="Вставить картинку" title="Вставить картинку"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',9)"><img src="graph/ubb/color.gif" 
+						alt="Цвет шрифта" title="Цвет шрифта"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',10)"><img src="graph/ubb/size.gif" 
+						alt="Размер шрифта" title="Размер шрифта"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',11)"><img src="graph/ubb/font.gif" 
+						alt="Начертание шрифта" title="Начертание шрифта"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',12)"><img src="graph/ubb/left.gif" 
+						alt="По левому краю" title="По левому краю"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',13)"><img src="graph/ubb/center.gif" 
+						alt="По центру" title="По центру"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',14)"><img src="graph/ubb/right.gif" 
+						alt="По правому краю" title="По правому краю"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',15)"><img src="graph/ubb/justify.gif" 
+						alt="По обоим краям" title="По обоим краям"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',16)"><img src="graph/ubb/sub.gif" 
+						alt="Нижний индекс" title="Нижний индекс"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',17)"><img src="graph/ubb/sup.gif" 
+						alt="Верхний индекс" title="Верхний индекс"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',18)"><img src="graph/ubb/line.gif" 
+						alt="Разделительная линия" title="Разделительная линия"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',19)"><img src="graph/ubb/bullets.gif" 
+						alt="Маркированный список" title="Маркированный список"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',20)"><img src="graph/ubb/numbering.gif" 
+						alt="Нумерованный список" title="Нумерованный список"></a>
+					<a href="#1" onclick="addubb('mess%MESS_ID%',21)"><img src="graph/ubb/help.gif" 
+						alt="Справка" title="Справка"></a>
+					|}
+					
+			</div>
+			
+			<div id="potverz">
+			
+				<input class="ptv"  type="submit" name="submit" value="Добавить" title="отправить сообщение">
+				<input class="ptv" type="reset" value="Очистить" title="очистить форму" >
+				<input class="ptv" type=button title="закрыть форму" value='Закрыть' 
+					onclick="inverse_elem('nwc')">
+					
+			</div>
+			
+			<h2>Добавить в сообщение смайлики:</h2>
+					
+			%SMILES%
+				
+		</form>
+
+		<div class="brdcom">
+
+			%COMMENTS%
+    
+		</div>
+
+		<hr>
+
+	</div>
+
+</div>
