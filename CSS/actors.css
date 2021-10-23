@@ -1,0 +1,54 @@
+#rodumer {width:160px;
+		  float:left;
+		  font-size:12pt;
+		  font-weight:bold;
+		  text-align:center;
+		  margin:0 8px;
+		  color:#000;
+		  border-bottom:#444 1px ridge;}
+ 
+#rodumer p {font-family:Verdana, Geneva, sans-serif, "Adobe Caslon Pro";
+			font-size:11px;
+			font-weight:bold;
+			text-indent:0;
+			margin-top:6px;}
+
+.actor {width:600px;
+		height:auto;
+		margin:18px auto;
+		border-width:0 1px;
+		border-style:ridge;
+		border-color:#999;}
+
+h1 {margin:4px auto;
+	font-size:20px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#000;}
+
+.actor p {font-family:Georgia, "Times New Roman", Times, serif;
+		  font-size:12pt;
+		  line-height:1.4em;
+		  margin:0 0 4px;
+		  text-indent:30px;
+		  text-align:justify;
+		  padding:0 10px;}
+
+.filmografy {display:block;
+			 width:418px;
+			 margin:0 auto;
+			 font-size:13pt;
+			 font-weight:bold;}
+			
+li {line-height:24px;
+	text-align:left;}
+
+ul li a:link, ul li a:visited {color:#444;}
+
+ul li a:hover {color:red;}
+
+.online {display:inline-block;
+		 width:54px;
+		 height:22px;
+		 background-image:url(/img/krfilm/actors_online.png);
+		 top:7px;
+		 float:right;}

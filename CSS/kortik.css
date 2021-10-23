@@ -1,0 +1,26 @@
+.divkalinin {display:inline-block;
+			 width:260px;
+			 height:auto;
+			 font-weight:bold;
+			 border-right:#09F 2px ridge;
+			 border-bottom:#09F 2px ridge;
+			 font-size:18px;
+			 margin-top:3px;}
+			
+.ft {float:left;
+	 margin-right:4px;}
+
+.prof {margin:14px auto 8px;}
+
+.reg {font-size:23px;
+	  color:#06C;
+	  margin:0 auto;}	
+				
+.fotoinline {width:600px;
+			 height:auto;
+			 margin:0 auto;}
+ 
+.fotoinline a {display:inline-block;
+			   width:76px;
+			   height:95px;
+			   margin:0 2px 2px 0;}
