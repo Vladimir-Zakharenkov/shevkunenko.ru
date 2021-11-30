@@ -9,20 +9,10 @@ $sApiKey = 'ef7d06e4b8b6564907d481e2895c3462';
 $aParamsToFiles = array (
   0 => 
   array (
-    'filename' => '../domain.txt',
-    'paramName' => 'domains',
-  ),
-  1 => 
-  array (
     'filename' => '../JS/8e6a3d.js',
     'paramName' => 'client_js',
   ),
-  2 => 
-  array (
-    'filename' => '../JS/6e8c7e.js',
-    'paramName' => 'client_embed_js',
-  ),
-  3 => 
+  1 => 
   array (
     'filename' => '../JS/4ca466.js',
     'paramName' => 'client_cu_js',
