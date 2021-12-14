@@ -7,13 +7,21 @@
     --border-red: hsla(350,90%,40%,.9);
 }
 
-img {
-    image-rendering: pixelated;
+/* Donate */
+
+.wbform {
+    width: 240px;
+    height: 240px;
+}
+
+#mainW {
+}
+
+.crowd-widget-240x240 {
 }
 
 /* Кнопки меню*/
-
-.ya-share2__title, .nav-link {
+.ya-share2__title, .nav-link, .dropdown-item {
     color: red !important;
     font-family: 'Times New Roman', Times, serif !important;
     font-size: 1.25rem !important;
@@ -21,6 +29,7 @@ img {
 
     .ya-share2__title:hover {
         text-decoration: underline;
+        color: black !important;
     }
 
 .ya-share2__item_more.ya-share2__item_has-pretty-view .ya-share2__link_more {
@@ -31,15 +40,20 @@ img {
 
 .donate {
     display: inline-block;
+    width: contain;
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid rgba(0,0,0,0.15) !important;
     background: rgba(0,0,0,0.03) !important;
     border-radius: 0 !important;
 }
 
-    .donate:hover {
-        text-decoration-line: underline;
+    .donate:hover, .dropdown-item span:hover {
+        color: black;
     }
+
+.navbar-toggler {
+    padding: .1rem .2rem
+}
 
 .tochka {
     width: 0;
@@ -49,10 +63,6 @@ img {
 a {
     text-decoration: none;
 }
-
-    a:hover {
-        text-decoration: underline;
-    }
 
     a:active {
         position: relative;
@@ -64,23 +74,30 @@ a {
 }
 
     .card a {
-        border: .2rem ridge transparent;
+        border: .3rem ridge transparent;
         transition: all .4s ease-in-out;
         color: black;
     }
 
         .card a:hover {
-            border: .2rem var(--border-red) ridge;
+            border: .3rem var(--border-red) ridge;
             opacity: .9;
             color: var(--border-red);
         }
 
 a .card-title {
     line-height: 50%;
+    font-size: 90%;
 }
 
+a .card-title2 {
+    line-height: 100%;
+    font-size: 100%;
+}
+
+
 .mxwidth30 {
-    max-width: 31%;
+    width: 31%;
 }
 
 .container-fluid-1920 {
@@ -89,7 +106,7 @@ a .card-title {
 
 #tsnt, #teasernet {
     color: hsla(0,0%,100%,1);
-    max-width: 96%;
+    max-width: 98%;
 }
 
 .footer-image img {
@@ -137,9 +154,12 @@ a .card-title {
 /* тег hr */
 .liniya {
     width: 96%;
-    height: 1px;
-    border: 1px ridge hsla(350,85%,34%,1.00);
-    margin: .6rem auto;
+    height: 1px !important;
+    color: hsla(330,60%,45%,.9);
+    border-color: hsla(0,90%,40%,.9);
+    box-shadow: .1em .1em .1em hsla(0,0%,0%,.6);
+    opacity: .9 !important;
+    margin: 1rem auto;
 }
 
 /* Фон по краям*/
