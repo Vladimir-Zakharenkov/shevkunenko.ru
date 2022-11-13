@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+<!-- Yandex.RTB -->
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+
+</head>
+<body style="padding-top: 50px;">
+
+  <h2>External content</h2>
+
+  <p>
+    Sometimes you want to use the collapse plugin to trigger a container element 
+    for content that structurally sits outside of the .navbar . Because our plugin 
+    works on the id and data-bs-target matching, that’s easily done!
+  </p>
+
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <p>
+    When you do this, we recommend including additional JavaScript to move the focus 
+    programmatically to the container when it is opened. Otherwise, keyboard users and 
+    users of assistive technologies will likely have a hard time finding the newly 
+    revealed content - particularly if the container that was opened comes before the toggler 
+    in the document’s structure. We also recommend making sure that the toggler has 
+    the aria-controls attribute, pointing to the id of the content container. In theory, 
+    this allows assistive technology users to jump directly from the toggler 
+    to the container it controls–but support for this is currently quite patchy.
+  </p>
+
+  <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <div style="width:auto; max-height:220px; margin:0 auto;">
+
+        <!-- Yandex.RTB R-A-2010454-2 -->
+        <div id="yandex_rtb_R-A-2010454-2"></div>
+        <script>
+            window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    renderTo: 'yandex_rtb_R-A-2010454-2',
+                    blockId: 'R-A-2010454-2'
+                })
+            })</script>
+
+    </div>
+
+</body>
+</html>
