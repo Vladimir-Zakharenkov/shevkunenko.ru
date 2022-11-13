@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap/gss.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/index.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava001.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava002.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava003.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava004.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava005.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+	<url>
+		<loc>https://shevkunenko.ru/raznoe/bogdanov/kryajonok/glava006.htm</loc>
+		<lastmod>2018-12-24T01:15:13+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.50</priority>
+	</url>
+
+</urlset>
