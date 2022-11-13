@@ -18,6 +18,7 @@
 *.mp3
 *.wav
 *.ogg
+*.tif
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
