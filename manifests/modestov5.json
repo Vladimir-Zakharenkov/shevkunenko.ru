@@ -1,0 +1,48 @@
+{
+	"name": "Николай Модестов - Следствие продолжается",
+	"short_name": "Следствие продолжается",
+	"dir": "ltr",
+	"lang": "ru-RU",
+	"description": "20 марта 2008 года прокуратура города Москвы отмечает 75-летие 
+		со дня своего образования. Дата хоть и не круглая, но для людей, посвятивших этой работе всю 
+		свою жизнь, событие имеет большое значение и останется в памяти как знаковая веха. К этой дате 
+		мы приурочили выпуск книги, где собраны наиболее интересные и громкие дела, расследовавшиеся 
+		с 1991 по 2007 год.",
+	"icons":[
+			{
+			"src": "/img/modestov/icons/android-icon-36x36.png",
+			"sizes": "36x36",
+			"type": "image/png"
+			},
+			{
+			"src": "/img/modestov/icons/android-icon-48x48.png",
+			"sizes": "48x48",
+			"type": "image/png"
+			},
+			{
+			"src": "/img/modestov/icons/android-icon-72x72.png",
+			"sizes": "72x72",
+			"type": "image/png"
+			},
+			{
+			"src": "/img/modestov/icons/android-icon-96x96.png",
+			"sizes": "96x96",
+			"type": "image/png"
+			},
+			{
+			"src": "/img/modestov/icons/android-icon-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+			},
+			{
+			"src": "/img/modestov/icons/android-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+			}
+			],
+	"start_url": "https://shevkunenko.ru/raznoe/modestov5/index.htm",
+	"display": "standalone",
+	"orientation": "any",
+	"background_color": "#3E4EB8",
+	"theme_color": "#2F3BA2"
+}
