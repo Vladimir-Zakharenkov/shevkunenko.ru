@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.shevkunenko\.ru$ [NC]
+RewriteRule ^(.*)$ https://shevkunenko.ru/$1 [R=301,L]
