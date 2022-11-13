@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Furry Friends Campaign</title>
+		<style>
+			#clickMe {
+				background: #D8B36E;
+				padding: 20px;
+				text-align: center;
+				width: 720px;
+				display: block;
+				border: 2px solid #000}
+			#picframe {
+				background: #D8B36E;
+				padding: 20px;
+				width: 720px;
+				display: none;
+				border: 2px solid #000}
+		</style>
+		<script src="/JS/jquery-3.4.1.min.js"></script>
+	<!-- Yandex.RTB -->
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+
+</head>
+
+	<body>
+
+		<div id="clickMe">Show Me the Furry Friend of the Day</div>
+
+		<div id="picframe">
+			<img src="/img/admin/films/zvezda.png" alt=" ">
+		</div>
+
+		<script>
+			var zmn = jQuery.noConflict()
+			
+			zmn(document).ready(function()
+				{
+					zmn("#clickMe").click(function()
+						{
+						zmn("img").fadeIn(1000);
+						zmn("#picframe").slideToggle("slow");
+						});
+				});
+		</script>
+
+	
+    <div style="width:auto; max-height:220px; margin:0 auto;">
+
+        <!-- Yandex.RTB R-A-2010454-2 -->
+        <div id="yandex_rtb_R-A-2010454-2"></div>
+        <script>
+            window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    renderTo: 'yandex_rtb_R-A-2010454-2',
+                    blockId: 'R-A-2010454-2'
+                })
+            })</script>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<head>
+  <title>xBASE - бесплатные гостевые книги</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<!-- Yandex.RTB -->
+    <script>window.yaContextCb = window.yaContextCb || []</script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+
+</head>
+
+<body topmargin=0 marginheight=0>
+<center>
+<br>%BANNER%<br><br>
+<form action="%ACTION%" method="post">
+<table width=80% border=0 cellpadding=2 cellspacing=1>
+<tr>
+  <td class="fon3" height=60 colspan=3 align="center" valign="center">
+    <font size=4><b>ГОСТЕВАЯ КНИГА</b></font>
+  </td>
+</tr>
+<tr>
+  <td class="fon2" height=30 colspan=3 align="center">
+    <table width=100% border=0 cellpadding=0 cellspacing=0><tr>
+      <td width=15>&nbsp;</td>
+      <td align="left"><b><a class="link2" href="http://%MAINPAGE%" target="_top">назад на главную</a></b></td>
+      <td align="right"><b><a href="#1" class="link2" onclick="inverse_elem('tr1_0'); inverse_elem('tr2_0'); inverse_elem('tr3_0'); inverse_elem('tr4_0');">добавить сообщение</a></b></td>
+      <td width=15>&nbsp;</td>
+    </tr></table>
+  </td>
+</tr>
+<tr id="tr1_0" style="display: none">
+  <td height=30 width=33% class="fon2" align="right">
+    <b>ник<font class="col1">*</font>:</b>
+    <input type="text" name="name" size=15 class="input" maxlength=30>&nbsp;</td>
+  <td height=30 width=34% class="fon2" align="right">
+    <b>e-mail:</b>
+    <input type="text" name="email" size=15 class="input" maxlength=40>&nbsp;</td>
+  <td height=30 width=33% class="fon2" align="right">
+    <b>сайт:</b>
+    <input type="text" name="url" size=15 class="input" maxlength=30>&nbsp;</td>
+</tr>
+<tr id="tr2_0" style="display: none">
+  <td height=30 class="fon2" align="right">
+    {REG|<a href="http://gorodsnov.ru/reg.php?from=x0" target="_blank">Добавить мини фото &gt;&gt;</a>|}&nbsp;</td>
+  <td height=30 class="fon2" align="right">
+    ответы почтой:
+    <a href="#1" onclick="alert('Если данная опция установлена, то комментарии, оставляемые на Ваше сообщение, будут отправляться к Вам на e-mail.')">[?]</a>
+    <input type="checkbox" name="get_mail" class="input">&nbsp;</td>
+  <td class="fon2">&nbsp;</td>
+</tr>
+<tr id="tr3_0" style="display: none">
+  <td height=30 colspan=3 align="center" class="fon1">
+    <b>&nbsp;&nbsp;смайлики: %SMILES%</b>
+  </td>
+</tr>
+<tr id="tr4_0" style="display: none">
+  <td colspan=3 align="center" class="fon2"><br>
+  <font class="col2"><b>текст сообщения:</b></font><br><br>
+  <textarea name="message" id="mess0" cols=62 rows=10 class="input"></textarea><br>
+
+  {UBB|
+  <a href="#1" onclick="addubb('mess0',1)" ><img src="graph/ubb/bold.gif"      width=20 height=20 alt="Полужирный текст" border=0></a>
+  <a href="#1" onclick="addubb('mess0',2)" ><img src="graph/ubb/italic.gif"    width=20 height=20 alt="Курсивный текст" border=0></a>
+  <a href="#1" onclick="addubb('mess0',3)" ><img src="graph/ubb/underline.gif" width=20 height=20 alt="Подчеркнутый текст" border=0></a>
+  <a href="#1" onclick="addubb('mess0',4)" ><img src="graph/ubb/cross.gif"     width=20 height=20 alt="Перечеркнутый текст" border=0></a>
+  <a href="#1" onclick="addubb('mess0',5)" ><img src="graph/ubb/quote.gif"     width=20 height=20 alt="Цитировать" border=0></a>
+  <a href="#1" onclick="addubb('mess0',6)" ><img src="graph/ubb/url.gif"       width=20 height=20 alt="URL ссылка" border=0></a>
+  <a href="#1" onclick="addubb('mess0',7)" ><img src="graph/ubb/email.gif"     width=20 height=20 alt="Ссылка на e-mail" border=0></a>
+  <a href="#1" onclick="addubb('mess0',8)" ><img src="graph/ubb/image.gif"     width=20 height=20 alt="Вставить картинку" border=0></a>
+  <a href="#1" onclick="addubb('mess0',9)" ><img src="graph/ubb/color.gif"     width=20 height=20 alt="Цвет шрифта" border=0></a>
+  <a href="#1" onclick="addubb('mess0',10)"><img src="graph/ubb/size.gif"      width=20 height=20 alt="Размер шрифта" border=0></a>
+  <a href="#1" onclick="addubb('mess0',11)"><img src="graph/ubb/font.gif"      width=20 height=20 alt="Начертание шрифта" border=0></a>
+  <a href="#1" onclick="addubb('mess0',12)"><img src="graph/ubb/left.gif"      width=20 height=20 alt="По левому краю" border=0></a>
+  <a href="#1" onclick="addubb('mess0',13)"><img src="graph/ubb/center.gif"    width=20 height=20 alt="По центру" border=0></a>
+  <a href="#1" onclick="addubb('mess0',14)"><img src="graph/ubb/right.gif"     width=20 height=20 alt="По правому краю" border=0></a>
+  <a href="#1" onclick="addubb('mess0',15)"><img src="graph/ubb/justify.gif"   width=20 height=20 alt="По обоим краям" border=0></a>
+  <a href="#1" onclick="addubb('mess0',16)"><img src="graph/ubb/sub.gif"       width=20 height=20 alt="Нижний индекс" border=0></a>
+  <a href="#1" onclick="addubb('mess0',17)"><img src="graph/ubb/sup.gif"       width=20 height=20 alt="Верхний индекс" border=0></a>
+  <a href="#1" onclick="addubb('mess0',18)"><img src="graph/ubb/line.gif"      width=20 height=20 alt="Разделительная линия" border=0></a>
+  <a href="#1" onclick="addubb('mess0',19)"><img src="graph/ubb/bullets.gif"   width=20 height=20 alt="Маркированный список" border=0></a>
+  <a href="#1" onclick="addubb('mess0',20)"><img src="graph/ubb/numbering.gif" width=20 height=20 alt="Нумерованный список" border=0></a>
+  <a href="#1" onclick="addubb('mess0',21)"><img src="graph/ubb/help.gif"      width=20 height=20 alt="Справка" border=0></a>
+  |}
+
+  <br><br>
+
+  <input type="submit" name="submit" value="Добавить" class="butt">&nbsp;&nbsp;
+  <input type="reset" value="Очистить" class="butt">&nbsp;&nbsp;
+  <input type="button" value="Закрыть" onClick="inverse_elem('tr1_0'); inverse_elem('tr2_0'); inverse_elem('tr3_0'); inverse_elem('tr4_0');" class="butt">
+  <br><br>
+  </td>
+</tr>
+
+
+</form>
+</table>
+%MESSAGES%
+<table width=80% border=0 cellpadding=0 cellspacing=1>
+<tr>
+  <td height=60>&nbsp;</td>
+</tr>
+<tr>
+  <td class="fon2" align="center">
+  <b>страницы: %PAGEBAR%<br><br>
+  всего страниц -  %LAST% | 
+  всего сообщений - %TOTAL%</b>
+  </td>
+</tr>
+<tr>
+  <td class="fon3" height=25 align="center">
+  <b>Гостевая книга предоставлена сервисом 
+  <a class="link2" href="http://xbase.ru" target="_blank">xBASE</a></b>
+  </td>
+</tr>
+</table>
+</center>
+
+    <div style="width:auto; max-height:220px; margin:0 auto;">
+
+        <!-- Yandex.RTB R-A-2010454-2 -->
+        <div id="yandex_rtb_R-A-2010454-2"></div>
+        <script>
+            window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    renderTo: 'yandex_rtb_R-A-2010454-2',
+                    blockId: 'R-A-2010454-2'
+                })
+            })</script>
+
+    </div>
+
+</body>
+
