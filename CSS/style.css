@@ -1,0 +1,236 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+:root {
+    /* цвета тени */
+    --shadow-background: hsla(350,54%,98%,1.00);
+    --shadow-box: hsla(350,54%,98%,1.00);
+    --shadow-bottom-right: hsla(0,0%,40%,1);
+    --shadow-top-left: hsla(0,70%,100%,1);
+    --border-red: hsla(350,90%,40%,.9);
+}
+
+/* Donate */
+
+.wbform {
+    width: 240px;
+    height: 240px;
+}
+
+#mainW {
+}
+
+.crowd-widget-240x240 {
+}
+
+/* Кнопки меню*/
+
+
+.ya-share2__title, .nav-link, .dropdown-item {
+    color: black !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 1.25rem !important;
+}
+
+
+
+    .ya-share2__title :hover {
+        text-decoration: none;
+        color: darkred !important;
+    }
+
+.nav-item {
+    width: 86%;
+}
+
+.dropdown-menu {
+    background: rgba(0,0,0,0.03) !important;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown-item {
+    border: .2rem solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+    .dropdown-item:hover {
+        border-color: darkred;
+    }
+
+
+/* Убираем пункт скопировать ссылку*/
+.ya-share2__link_copy {
+    display: none !important;
+}
+
+.ya-share2__title {
+    margin-right: 15px !important;
+}
+
+.ya-share2__item_more.ya-share2__item_has-pretty-view .ya-share2__link_more {
+    background: rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 5px !important;
+    padding-right: 4px !important;
+    transition: all .3s ease-in-out;
+}
+
+.donate {
+    display: inline-block;
+    width: contain;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgba(0,0,0,0.15) !important;
+    background: rgba(0,0,0,0.03) !important;
+    transition: all .3s ease-in-out;
+}
+
+    .donate:hover, .donate span:hover, .ya-share2__link_more:hover, .ya-share2__link:hover {
+        color: darkred;
+        border-color: darkred !important;
+    }
+
+.ya-share2__link {
+    border-radius: 5px;
+}
+
+.ya-share2__title:hover {
+    color: darkred !important;
+}
+
+@media (max-width: 767px) {
+    .custom {
+        margin-top: 1rem;
+    }
+}
+
+.navbar-toggler {
+    padding: .1rem .2rem
+}
+
+.tochka {
+    width: 0;
+    height: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:active, .dropdown:active {
+        position: relative;
+        top: 4px;
+    }
+
+.dropdown a:active {
+    top: 0;
+}
+
+.card a {
+    border: .3rem ridge transparent;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+
+    .card a:hover {
+        border: .3rem var(--border-red) ridge;
+        opacity: .9;
+        color: var(--border-red);
+    }
+
+.cardBodyBg {
+    background-color: hsl(0 15% 84%) !important
+}
+
+.container-fluid-1920 {
+    max-width: 1920px;
+}
+
+#tsnt, #teasernet {
+    color: hsla(0,0%,100%,1);
+    max-width: 98%;
+}
+
+.footer-image img {
+    border-width: 0 !important;
+}
+
+.footer-image a:hover {
+    text-decoration: none;
+}
+
+
+/* Тень блока */
+.shadw, .ya-share2__link {
+    background: var(--shadow-background);
+    box-shadow: 0 15px 10px -10px hsla(350,60%,0%,.5), 0 1px 4px hsla(350,60%,0%,.3), 0 0 40px hsla(350,60%,0%,.1) inset;
+    border-right: 1px ridge var(--shadow-bottom-right);
+    border-bottom: 1px ridge var(--shadow-bottom-right);
+    border-top: 1px ridge var(--shadow-top-left);
+    border-left: 1px ridge var(--shadow-top-left);
+}
+
+    .shadw:after, .shadw:before, .ya-share2__link:after, .ya-share2__link:before {
+        content: "";
+        position: absolute;
+        z-index: -2;
+    }
+
+.text_shadow {
+    text-shadow: hsla(350,90%,40%,.6) 1px 2px 2px;
+}
+
+/* Поиск от Google */
+#___gcse_0 {
+    width: 100% !important;
+    float: right;
+}
+
+.gsc-control-cse {
+    padding: 2px !important;
+}
+
+.gsc-search-button-v2 {
+    padding: 6px 8px !important;
+}
+
+table.gsc-search-box, form.gsc-search-box {
+    margin-bottom: 0px !important;
+}
+/* тег hr */
+.liniya {
+    width: 96%;
+    height: 1px !important;
+    color: hsla(330,60%,45%,.9);
+    border-color: hsla(0,90%,40%,.9);
+    box-shadow: .1em .1em .1em hsla(0,0%,0%,.6);
+    opacity: .9 !important;
+    margin: 1rem auto;
+}
+
+/* Фон по краям*/
+.bg-image {
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.bg-kortik-1 {
+    background-image: url(/images/backgrounds/fon-kortik-1.png);
+}
+
+.bg-kortik-2 {
+    background-image: url(/images/backgrounds/fon-kortik-2.png);
+}
+
+
+.adp_img {
+    max-width: 96%;
+    border-radius: 1rem;
+}
+
+.ten {
+    box-shadow: .5rem .4rem .4rem hsla(0,0%,0%,.6);
+}

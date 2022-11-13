@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+@page {
+margin:0}
+
+#bd {
+margin:2cm 3.5cm}
+
+#lx_511977, .poisk-soc, nav, #original, #pechat, #djvu, .nv-bk, #teasernet, #dtl1, .nameofbook1, admin2 {
+display:none}
+
+a {
+text-decoration:none;
+color:#000}
+
+h1, h2, h3 {
+text-align:center;
+text-indent:0;
+font-size:120%}
+
+.pss p {
+margin:0;
+text-align:justify;
+text-indent:24px;
+line-height:120% !important;
+font:12.6pt/20pt "Times New Roman", Times, serif;
+-moz-hyphens:auto ;
+-webkit-hyphens:auto;
+-ms-hyphens:auto}
+
+.nobrake {
+display:inline;
+text-indent:0;
+width:auto;
+white-space:nowrap;
+text-align:justify !important}
+
+.fstroka::after{ /* расяжение последней строки на странице */
+content:"                                                                                                        "}
+
+.fmdstrokal, .fmdstrokar, .fmdstrokali {
+position:absolute;
+display:inline-block;
+color:#000;
+font-size:10pt;
+font-style:normal}
+
+.fmdstrokal {
+left:100px}
+
+.fmdstrokali {
+left:104px}
+
+.fmdstrokar {
+right:106px}
+
+.flr {
+float:right}
+
+.t-i-0 {
+text-indent:0 !important}
+
+.t-a-c {
+text-align:center !important}
+
+.fmdcrs {
+font-style: italic !important}
+
+#nomstr {/* номер страницы */
+font-weight:bold;
+margin-top:0}

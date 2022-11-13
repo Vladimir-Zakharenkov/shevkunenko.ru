@@ -1,0 +1,2314 @@
+@charset "utf-8";
+/* CSS Document */
+/* триада #B82E5E hsla(330,60%,45%,1) #2E5EB8 hsla(210,60%,45%,1) #5EB82E hsla(90,60%,45%,1) */
+
+/* css-reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display:block}
+
+html {
+width:100%;
+min-width:20rem;
+height:auto}
+
+body {
+line-height:1;
+min-height:100%}
+
+#bd {
+text-align:center;
+margin:0 auto;
+font-size:100%;
+width:100%;
+max-width:120rem;
+min-width:20rem;
+height:auto}
+
+/* ВЕРХ СТРАНИЦЫ */
+.top_of_page {
+display: block;
+width:98%;
+height:auto;
+margin:0 0 .5rem;
+padding:0 .2rem .4rem;
+border-bottom:1px ridge hsla(0,60%,45%,1)}
+
+/* КНОПКА ПОДДЕРЖАТЬ */
+.pig {
+display:inline-block;
+width:28%;
+min-width:18rem;
+margin-bottom:.5rem;
+height:auto;
+vertical-align:middle}
+
+.pig .pod {
+margin:0}
+
+.pig .pod a {
+display:inline-block;
+width:auto;
+height:auto;
+color:hsla(330,60%,0%,1);
+line-height:1.2rem;
+vertical-align:middle;
+text-align:center;
+padding:.5rem;
+font-size:1rem;
+font-family:"MS Serif", "New York", serif;
+font-style:normal;
+font-weight:bold;
+border-right:1px ridge hsla(0,0%,40%,1);
+border-bottom:1px ridge hsla(0,0%,40%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1);
+transition:all .7s ease}
+/* ----------------------------- */
+
+/* ФОРМА ПОИСКА ОТ ЯНДЕКС */
+.ya-site-form__input-text {
+padding:.4em !important}
+
+.mypoisk {
+display:inline-block;
+width:38%;
+min-width:18rem;
+margin-bottom:.5rem;
+height:auto;
+vertical-align:middle}
+/* ----------------------------- */
+
+/* КНОПКИ СОЦИАЛЬНЫХ СЕТЕЙ */
+.sb-dn {
+display:inline-block;
+width:28%;
+min-width:18rem;
+margin-bottom:.5rem;
+height:auto;
+vertical-align:middle}
+
+.ya-share2, .sb-dn .pmnt {
+display:inline-block !important;
+width:auto !important;
+height:auto !important;
+padding:.1em .3em}
+
+.ya-share2 {
+margin:0}
+
+.pmnt {
+vertical-align:top}
+
+.yashare-auto-init {
+display:block;
+padding:.2em}
+
+.ya-share2__container ul li {
+margin:.3em !important}
+
+.pmnt img {
+margin:.1em !important;
+margin-top:.2em  !important}
+
+.ya-share2__icon {
+width:2.2em !important;
+height:2.2em !important}
+
+.ya-share2__badge {
+border:#FFF 2px ridge !important;
+border-radius:.3em !important;
+transition:all .7s ease}
+
+.ya-share2__badge:hover {
+border:#CC0000 2px ridge !important;
+border-radius:.3em !important;
+transition:all .7s ease}
+/* ----------------------------- */
+
+/* БЛОК СЧЕТЧИКОВ */
+#schetchiki {
+display:block;
+width:auto;
+height:auto;
+margin:3rem auto 1rem;
+text-align:center}
+
+#schetchiki div {
+display:inline-block;
+width:88px;
+height:31px;
+margin-right:.5rem;
+margin-bottom:.5rem}
+/* ----------------------------- */
+
+/* для index.html первая страница сайта */
+#idx, #idx1 {
+display:block;
+width:100%;
+height:auto;
+margin:0 auto 3rem}
+
+#idx1 {
+display:none}
+
+/* ----------------------------- */
+
+.tn-player {
+display:block !important;
+position:relative;
+overflow:hidden;
+font-family:Arial, sans-serif;
+font-size:11px;
+margin:0 auto !important;
+}
+
+b, strong {
+font-weight:bold}
+
+/* БЛОКИ С КАРТИНКАМИ */
+.admin, .admin2, .admin3, .admin5 {
+display:block;
+width:auto;
+height:auto;
+margin:.5rem auto;
+text-align:center}
+
+.admin a, .admin2 a, .admin3 a, .admin5 a {
+display:inline-block;
+width:25%;
+min-width:4rem;
+height:auto;
+margin-right:1.1rem;
+margin-bottom:1.1rem}
+
+.admin a {
+max-width:19rem}
+
+.admin2 a {
+max-width:13rem}
+
+.admin3 a {
+max-width:7rem}
+
+.admin img, .admin2 img, .admin3 img, .admin5 img {
+display:inline-block;
+width:100%;
+height:auto;
+border:.3rem ridge transparent;
+box-shadow:.5rem .5rem .4rem hsla(0,0%,0%,.6);
+border-radius:.7rem;
+transition:all 1s ease}
+
+.admin img:hover, .admin2 img:hover, .admin3 img:hover, .admin5 img:hover {
+border:.3rem hsla(0,90%,40%,.9) ridge;
+opacity:.8;
+transition:all 1s ease}
+
+.admin .zag1 a, .admin2 .zag1 a, .admin3 .zag1 a, .admin5 .zag1 a {
+margin-bottom:0.1em}
+
+.admin3 {
+padding: 1.5rem 1.5rem 1rem}
+
+.admin5, .ramka {
+border:2px ridge hsla(330,60%,45%,1);
+border-radius:10px;
+padding-top:1em;
+padding-left:1.2em}
+
+.admin5, .ramka {
+max-width:70%}
+
+/* текст с тенью */
+.zagt {
+text-shadow:hsla(0,90%,40%,.6) 1px 2px 2px}
+
+/* тень и скругление углов картинки */
+.sshev {
+box-shadow:.5rem .5rem .4rem hsla(0,0%,0%,.6);
+border-radius:.7rem}
+
+.sshev1 {
+max-width:54% !important;
+min-width:10rem}
+
+.sshev2 {
+width:60% !important}
+
+.sshev3 {
+max-width:100% !important}
+/*--------------------------------------------*/
+
+/*для страницы navigation - формат картинки*/
+#brd0 {
+border:0;
+margin-right:1rem;
+width:60% !important;
+max-width:36rem !important;
+min-width:14rem;
+max-height:20rem !important}
+
+#brd0:hover {
+border:0;
+opacity:1}
+/*--------------------*/
+
+.admin5 img {
+max-width:150px}
+
+.admin6 {
+border:0;
+max-width:90%}
+
+.adminmax {
+display: block;
+width:96%;
+height:auto;
+margin:.5em auto}
+
+.adminmax img {
+display: block;
+width:80%;
+max-width:1920px;
+height:auto;
+margin:.5em auto 1.5em;
+border:.3em ridge transparent;
+transition:all 1s ease}
+
+.adminmax img:hover {
+border:.3em ridge hsla(359,81%,32%,1.00);
+transition:all 1s ease}
+
+.max720 img {
+max-width:720px}
+
+ol, ul {
+list-style:none}
+
+blockquote, q {
+quotes:none}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none}
+
+table {
+border-collapse:collapse;
+border-spacing:0}
+
+a {
+text-decoration:none;
+color:inherit;
+outline:none}
+
+a:-webkit-any-link {
+color:inherit}
+
+a:visited {
+text-decoration:none;
+color:inherit;
+outline:none}
+
+img {
+border-width:0}
+
+.fwn {
+font-weight:normal !important}
+/* ----------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+display:block;
+width:auto;
+max-width:92%;
+margin:0 auto;
+font-weight:bolder}
+
+h1 {
+font-size:2em;
+margin:0.67em auto}
+ 
+h2 {
+font-size:1.4em;
+margin:0.8em auto;
+line-height:1.3em;
+max-width:80%}
+
+h3 {
+font-size:1.17em;
+margin:1em auto}
+ 
+h4 {
+font-size:1em;
+margin:1.33em auto}
+ 
+h5 {
+font-size:.83em;
+margin:1.67em auto}
+ 
+h6 {
+font-size:.67em;
+margin:2.33em auto}
+
+.zag1, .zag2 {
+width:74%;
+text-align:center;
+text-shadow:hsla(0,90%,40%,.6) 1px 2px 2px}
+
+.zag1 {
+line-height:120%;
+font-size:180%}
+
+.zag2 {
+font-size:160%;
+margin:0 auto .6em;
+padding:0 .8rem}
+
+/* ----- рекламные блоки ------ */
+#lx_511977, .lx_table, .lx_wrap, #teasernet, #tsnt {
+background-color:hsla(240,0%,90%,1);
+color:hsla(0,0%,100%,1);
+width:98% !important;
+padding:0;
+margin:1rem auto}
+
+.lx_table {
+margin:0 auto}
+
+.lx_wrap {
+margin:.4rem auto}
+
+.mdlab {
+padding:.3rem;
+text-align:center !important;
+text-indent:0 !important;
+color:#000000 !important;
+font-size:12px !important;
+font-family:tahoma,times, verdana, tahoma !important;
+text-decoration:none !important}
+
+.mdtab {
+width:16%;
+padding:.3rem;
+margin-right:.3rem}
+
+.mdimg {
+display:block !important;
+margin:0 auto !important;
+position:absolute !important;
+width:100% !important;
+height:auto !important;
+top:0px !important;
+left:0px !important;
+z-index:1 !important}
+/* ----------------------------- */
+
+
+/*микроразметка элемента video  */
+.video-schema, .video-schema-meta {
+display:block}
+
+.fll {
+float:left}
+
+.flr {
+float:right}
+
+.clr {
+clear:right}
+
+
+/* жирный шрифт */
+.bld {
+font-weight:bold !important}
+
+/* горизонтальный разделитель */
+hr {
+clear:both;
+width:60%;
+margin:.8rem auto;
+color:hsla(330,60%,45%,.9);
+border-color:hsla(0,90%,40%,.9);
+box-shadow:.1em .1em .1em hsla(0,0%,0%,.6)}
+
+/* главный блок страницы */
+#mnbd {
+display:block;
+width:100%;
+max-width:120rem;
+height:auto;
+font-size:1rem;
+background-color:hsla(42,90%,88%,1);
+color:hsla(0,0%,16%,1);
+margin:0 auto;
+padding:.5rem 0;
+border-top:1px ridge hsla(0,60%,45%,1);
+border-bottom:1px ridge hsla(0,60%,45%,1);
+
+/* перенос слов в тексте */
+overflow-wrap:break-word;
+word-wrap:break-word;
+-webkit-hyphens:auto;
+-ms-hyphens:auto;
+-moz-hyphens:auto;
+-o-hyphens:auto;
+hyphens:auto;
+
+-ms-hyphenate-limit-chars:6 3 3;
+-webkit-hyphenate-limit-chars:6 3 3;
+-moz-hyphenate-limit-chars:6 3 3;
+-o-hyphenate-limit-chars:6 3 3;
+-webkit-hyphenate-limit-before:3;
+-webkit-hyphenate-limit-after:3;
+hyphenate-limit-chars:6 3 3;
+
+-ms-hyphenate-limit-lines:2;
+-webkit-hyphenate-limit-lines:2;
+-moz-hyphenate-limit-lines:2;
+-o-hyphenate-limit-lines:2;
+hyphenate-limit-lines:2;
+/* запрет переноса последнего слова в абзаце */
+-ms-hyphenate-limit-last:always;
+-webkit-hyphenate-limit-last:always;
+-moz-hyphenate-limit-last:always;
+-o-hyphenate-limit-last:always;
+hyphenate-limit-last:always;
+/* hyphenate-limit-zone: 8% */}
+/* ---------------------------------------------- */
+
+.info, .film, .kniga {
+display:block;
+width:100%;
+height:auto;
+margin:0 auto;
+-webkit-background-size:100% auto;
+-o-background-size:100% auto;
+-moz-background-size:100% auto;
+background-size:100% auto;
+background-repeat:repeat-y;
+background-position:center}
+
+.info > * {
+	max-width:74%}
+
+.info header {
+margin:0 auto}
+
+.film .admin, .film .admin2, .kniga .admin, .kniga .admin2 {
+width:74%}
+
+/* приподнятый слой */
+.lay1, .pages a, .soderjanie2 tr td:nth-of-type(3) a, .soderjanie2 tr td:nth-of-type(4) a, #dtl1, .gody a, .ex5 figure, .ex5 figure p, .ex5 figure p a, .ex5 figure a img, .yashare-auto-init, .ya-share2, .ya-share2__badge, #ya-site-form0, .b-share-btn__wrap, .nv-bk a, .nv-bk2 a, .text-of-book, .text-of-book2, .audioonline, .bookfooter a, .bookfooter2 a, #schetchiki div, .descr, .descr2, .tn-player, .zg-bk, .soderjanie, .oblojka2, #teasernet, #tsnt, nav, .pmnt, .glavy-oblojka, .glavy-oblojka2, .yach3, .yach4, #tnrec iframe, .download2 a img, .bookpages, .nav-for-book, .nav-for-book2, .pig .pod a, .knp {
+position:relative;
+background:hsla(0,50%,96%,1);
+box-shadow:0 15px 10px -10px hsla(180,60%,0%,.5), 0 1px 4px hsla(180,60%,0%,.3), 0 0 40px hsla(180,60%,0%,.1) inset;
+border-right:1px ridge hsla(0,0%,40%,1);
+border-bottom:1px ridge hsla(0,0%,40%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1)}
+
+.lay1:before, .lay1:after, .pages a:before, .pages a:after, .soderjanie2 tr td:nth-of-type(3) a:before, .soderjanie2 tr td:nth-of-type(3) a:after, .soderjanie2 tr td:nth-of-type(4) a:before, .soderjanie2 tr td:nth-of-type(4) a:after, #dtl1:before, #dtl1:after, .gody a:before, .gody a:after, .ex5 figure:before, .ex5 figure:after, .ex5 figure p:before, .ex5 figure p:after, .ex5 figure p a:before, .ex5 figure p a:after, .ex5 figure a img:before, .ex5 figure a img:after, .yashare-auto-init:before, .yashare-auto-init:after, .ya-share2:before, .ya-share2:after, .ya-share2__badge:before, .ya-share2__badge:after, #ya-site-form0:before, #ya-site-form0:after, .b-share-btn__wrap:before, .b-share-btn__wrap:after, .nv-bk a:before, .nv-bk a:after, .nv-bk2 a:before, .nv-bk2 a:after, .text-of-book:before, .text-of-book:after, .text-of-book2:before, .text-of-book2:after, .audioonline:before, .audioonline:after, .bookfooter a:before, .bookfooter a:after, .bookfooter2 a:before, .bookfooter2 a:after, #schetchiki div:before, #schetchiki div:after, .descr:before, .descr:after, .descr2:before, .descr2:after, .tn-player:before, .tn-player:after, .zg-bk:before, .zg-bk:after, .soderjanie:before, .soderjanie:after, .oblojka2:before, .oblojka2:after, #teasernet:after, #teasernet:before, #tsnt:after, #tsnt:before, nav:after, nav:before, .pmnt:after, .pmnt:before, .glavy-oblojka:before, .glavy-oblojka:after, .glavy-oblojka2:before, .glavy-oblojka2:after, .yach3:before, .yach3:after, .yach4:before, .yach4:after, #tnrec iframe:before, #tnrec iframe:after, .download2 a img:before, .download2 a img:after, .bookpages:before, .bookpages:after, .nav-for-book:before, .nav-for-book:after, .nav-for-book2:before, .nav-for-book2:after, .pig .pod a:before, .pig .pod a:after, .knp:before, .knpmp:after {
+content:"";
+position:absolute;
+z-index:-2}
+/* ---------------------------------------------- */
+
+
+/* ОПУСКАЕМ КНОПКУ ПРИ НАЖАТИИ */
+.click:active, .pages a:active, .soderjanie2 tr td:nth-of-type(3) a:active, .soderjanie2 tr td:nth-of-type(4) a:active, nav a:active, .gody a:active, .nv-bk a:active, .atext:active, .ex5 figure p a:active, .ex5 figure a img:active, .bookfooter a:active, .bookfooter2 a:active, .yach3:active, .yach4:active, .nv-bk2 a:active, .admin a:active, .admin2 a:active, .admin3 a:active, .download2 a:active, .download a:active, #schetchiki div:active, .knp:active {
+position:relative;
+top:3px}
+/* ----------------------------- */
+
+/* увеличение шрифта до H1 */
+.font2_3 {
+font-size:2.3rem !important}
+/* ----------------------------- */
+
+/* кнопки навигации по сайту*/
+
+nav{
+display:block;
+width:100%;
+max-width:99%;
+height:auto;
+background-color:hsla(36,70%,70%,0.6);
+color:hsla(0,0%,100%,1);
+padding:.2rem 0;
+margin:.3rem auto .5rem;
+text-align:center}
+
+nav a{
+display:inline-block;
+width:auto;
+min-width:4rem;
+height:auto;
+margin:.2rem;
+font:italic bold .8rem "Arial Narrow";
+text-align:center;
+padding:.3rem;
+color:hsla(0,0%,100%,1);
+text-shadow:0 1px 0 hsla(0,0%,0%,0.4);
+border:1px solid hsla(0,0%,0%,0.6);
+box-shadow:0 0 8px hsla(0,60%,45%,1);
+border-radius:0rem;
+vertical-align: middle;
+transition:all 1s ease}
+
+nav a:hover{
+text-decoration:underline}
+/* ----------------------------- */
+
+/* градиент кнопок навигации */
+.gr1, nav a {
+background:hsla(330,0%,20%,.6);
+
+/* FF3.6+ */
+background:-moz-linear-gradient(top, hsla(11,90%,50%,1) 0%, hsla(9,86%,55%,1) 10%, hsla(13,33%,16%,1) 40%, hsla(0,67%,1%,1) 50%, hsla(13,33%,16%,1) 60%, hsla(9,86%,55%,1) 90%, hsla(11,90%,50%,1) 100%);
+
+/* Chrome,Safari4+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,hsla(11,90%,50%,1)), color-stop(10%,hsla(9,86%,55%,1)), color-stop(40%,hsla(13,33%,16%,1)), color-stop(50%,hsla(0,67%,1%,1)), color-stop(60%,hsla(13,33%,16%,1)), color-stop(90%,hsla(9,86%,55%,1)), color-stop(100%,hsla(11,90%,50%,1)));
+
+/* Chrome10+,Safari5.1+ */
+background:-webkit-linear-gradient(top, hsla(11,90%,50%,1) 0%,hsla(9,86%,55%,1) 10%,hsla(13,33%,16%,1) 40%,hsla(0,67%,1%,1) 50%,hsla(13,33%,16%,1) 60%,hsla(9,86%,55%,1) 90%,hsla(11,90%,50%,1) 100%);
+
+/* Opera 11.10+ */
+background:-o-linear-gradient(top, hsla(11,90%,50%,1) 0%,hsla(9,86%,55%,1) 10%,hsla(13,33%,16%,1) 40%,hsla(0,67%,1%,1) 50%,hsla(13,33%,16%,1) 60%,hsla(9,86%,55%,1) 90%,hsla(11,90%,50%,1) 100%);
+
+/* IE10+ */
+background:-ms-linear-gradient(top, hsla(11,90%,50%,1) 0%,hsla(9,86%,55%,1) 10%,hsla(13,33%,16%,1) 40%,hsla(0,67%,1%,1) 50%,hsla(13,33%,16%,1) 60%,hsla(9,86%,55%,1) 90%,hsla(11,90%,50%,1) 100%);
+
+/* W3C */
+background:linear-gradient(to bottom, hsla(11,90%,50%,1) 0%,hsla(9,86%,55%,1) 10%,hsla(13,33%,16%,1) 40%,hsla(0,67%,1%,1) 50%,hsla(13,33%,16%,1) 60%,hsla(9,86%,55%,1) 90%,hsla(11,90%,50%,1) 100%);
+
+/* IE6-9 */
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2380e', endColorstr='#f2380e',GradientType=0 );
+
+background-size:100% 200%}
+
+.gr1:hover, nav a:hover {
+background-position:bottom}
+/*-----------------------*/
+
+/* блок иконок навигации с картинкой и текстом*/
+.ex5 {
+width:80%;
+height:auto;
+margin:.5em auto;
+padding:0;
+text-align:center}
+
+.ex5 figure {
+display:inline-block;
+margin:1em .8em 0 0; 
+background-color:hsla(0,90%,40%,.9);
+border-radius:.6em;
+width:auto;
+padding:.6em;
+height:auto;
+transition:all 1.7s ease}
+
+.ex5 figure:hover {
+background-color:hsla(240,90%,40%,.7)}
+
+.ex5 img {
+background:hsla(0,50%,100%,1);
+opacity:1;
+max-width:184px;
+max-height:250px;
+padding:3px;
+margin:0;
+border:1px hsla(0,60%,0%,1) ridge; 
+border-radius:10px;
+transition:all .4s ease}
+
+.ex5 img:hover {
+opacity:1;
+background:hsla(0,100%,40%,1);
+border-color:hsla(0,60%,100%,1);
+box-shadow:inset 0px 0px 40px hsla(0,60%,100%,1); 
+transition:all .8s ease}
+
+.ex5 figure p {
+display:inline-block;
+width:90%;
+height:auto;
+padding:.1em;
+margin-top:.5em}
+
+.ex5 figure p a {
+display:inline-block;
+width:90%;
+color:hsla(0,50%,0%,1);
+text-align:center;
+margin:2px auto;
+font-family:Verdana, Geneva, sans-serif;
+font-size:.9em;
+padding:.1em;
+line-height:1em;
+transition:all 1s ease}
+
+.ex5 figure p a:hover, .knp:hover {
+color:hsla(0,50%,100%,1);
+background-color:hsla(0,90%,40%,1);
+transition:all 1s ease}
+
+/* контейнер о фильме */
+.unit {
+width:280px !important;
+height:auto !important;
+background-color:hsla(0,0%,100%,1) !important;
+border-radius:0 !important;
+padding:.7em !important;
+margin:1em .8em 0 0 !important;
+border-right:2px ridge hsla(210,100%,40%,.9) !important;
+border-bottom:2px ridge hsla(210,100%,40%,.9) !important;
+transition:all .5s ease !important}
+
+.unit img {
+opacity:1;
+width:36% !important;
+height:auto !important;
+float:left !important;
+padding:.2em !important;
+margin:0 .5em 0 0 !important;
+border:1px hsla(210,40%,60%,1) ridge !important; 
+border-radius:0 !important;
+transition:all .4s ease !important}
+
+.unit img:hover {
+opacity:.7 !important;
+background:hsla(210,60%,40%,.6) !important;
+border-color:hsla(210,100%,40%,.6) !important;
+box-shadow:0 15px 10px -10px hsla(180,60%,0%,.5), 0 1px 4px hsla(180,60%,0%,.3), 0 0 40px hsla(180,60%,0%,.1) inset !important;
+border-radius:.4em !important;
+transition:all .7s ease !important}
+
+.profreg {
+display:inline-block !important;
+width:55% !important;
+height:auto !important;
+border:2px hsla(210,40%,60%,.6) ridge !important; 
+margin-top:1.1em !important;
+font-size:120% !important;
+font-weight:bold !important;
+font-family:"Times New Roman", Times, serif  !important; 
+text-align:center !important;
+color:hsla(0,0%,0%,1) !important;
+background-color:hsla(0,0%,100%,1) !important;
+transition:all .7s ease !important}
+
+.profreg a {
+display:inline-block !important;
+box-shadow:none !important;
+border:0 !important;
+padding:0 !important;
+width:100% !important;
+height:auto !important;
+font-family:"Times New Roman", Times, serif !important;
+line-height:1.3em !important}
+
+.profreg:hover {
+border:2px hsla(0,50%,80%,1) ridge !important;
+border-radius:.4em !important;
+transition:all .7s ease !important} 
+
+.profreg a:hover  {
+color:hsla(0,0%,0%,1) !important;
+background-color:hsla(0,0%,100%,1) !important}
+
+.prof, .reg {
+display:inline-block !important;
+height:auto !important;
+margin:0 auto !important}
+
+.prof {
+padding:.4em 0 !important;
+font-size:1.1em !important}
+
+.reg {
+color:hsla(210,100%,40%,1) !important;
+font-size:1.3em !important;
+font-weight:normal !important;
+padding:0 0 .2em !important;
+line-height:1.1em !important}
+/*-----------------------------------------------------*/
+
+.fs200 {
+font-size:200% !important}
+
+.fs140 {
+font-size:140% !important}
+
+.fs130 {
+font-size:130% !important}
+
+.fs120 {
+font-size:120% !important}
+
+.fs110 {
+font-size:110% !important}
+
+.fs90 {
+font-size:90% !important}
+
+.fs80 {
+font-size:80% !important}
+
+.fs70 {
+font-size:70% !important}
+
+.lh15 {
+line-height:1.2em}
+
+.lh130 {
+line-height:130% !important}
+
+.lh110 {
+line-height:110% !important}
+
+.lh90 {
+line-height:90% !important}
+
+.pd0 {padding:0 !important}
+
+.m-w33 {
+max-width:33% !important}
+
+.m-w66 {
+max-width:66% !important}
+
+/* БИОГРАФИЯ*/
+.biog {
+display:block;
+width:72%;
+height:auto;
+margin:1rem auto;
+padding:0 1.5rem}
+
+.biog .zag1 {
+margin:.5em auto}
+
+.ftb {
+display:inline-block;
+width:auto;
+height:auto;
+margin:1em 1em 1em .5em;
+text-align:left}
+
+.ftb img {
+display:inline-block;
+width: auto;
+height: auto}
+
+.ris {
+font-weight:normal;
+text-indent:0;
+text-align:left;
+font:10.4pt/17pt Arial, Helvetica, sans-serif;
+text-shadow:hsla(0,90%,40%,.6) 1px 2px 2px}
+
+.biog p {
+margin:0;
+padding:0;
+text-align:justify;
+text-indent:1.5em;
+font:14pt/21pt "Times New Roman", Times, serif;
+-moz-hyphens:auto;
+-webkit-hyphens:auto;
+-ms-hyphens:auto;
+hyphens:auto}
+/*-----------------------------------------------------*/
+
+/* текст выделенный другим шрифтом и курсивом */
+.pesa {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:italic;
+font-weight:bolder;
+font-size:1.1em}
+
+/* блок кнопок - скачать */
+.download, .download2 {
+display:block;
+width:72%;
+height:auto;
+padding:0;
+margin:.5rem auto;
+text-align:center;
+clear:both;
+font-size:100%}
+
+.download a {
+display:inline-block;
+width:auto;
+height:auto;
+margin:.5em 1em .5em 0;
+padding:.3em;
+min-width:5em;
+font:normal 1em 'Arial', 'Helvetica CY', 'Nimbus Sans L', sans-serif;
+text-align:center;
+color:hsla(0,0%,100%,1);
+text-shadow:0 1px 0 hsla(0,0%,0%,0.4);
+border:1px solid hsla(0,0%,0%,0.6);
+box-shadow:0 0 8px hsla(330,60%,45%,1);
+border-radius:.3em;
+transition:all .6s ease}
+
+.download a span {
+display:inline-block;
+border-top:1px solid hsla(0,0%,100%,0.5);
+border-left:1px solid hsla(0,0%,100%,0.5);
+border-right:1px solid hsla(0,0%,100%,0.5);
+border-bottom:1px solid hsla(0,0%,0%,0.5);
+padding:.3em;
+border-radius:.3em;
+font-family:Tahoma, Geneva, sans-serif Arial}
+
+.download a span:hover {
+border-top:1px solid hsla(0,0%,0%,0.5);
+border-left:1px solid hsla(0,0%,100%,0.5);
+border-right:1px solid hsla(0,0%,100%,0.5);
+border-bottom:1px solid hsla(0,0%,100%,0.5)}
+
+.download2 a {
+display:inline-block;
+width:10%;
+max-width:7rem;
+min-width:4rem;
+height:auto;
+border-radius:1rem;
+margin:.5rem 1rem .5rem 0;
+text-align:center;
+color:hsla(0,0%,100%,1);
+transition:all .6s ease}
+
+.download2 a img {
+width:100%;
+border:.2rem ridge;
+border-color:inherit;
+border-radius:1rem;
+opacity:.7;
+transition:all .8s ease}
+
+.download2 a img:hover, .download2 a .here2 {
+border-color:hsla(0,90%,40%,1);
+opacity:1}
+
+.download2 a .here2 {
+border:.3rem ridge;
+border-color:hsla(0,90%,40%,1);
+opacity:1}
+/*-----------------------------------------------------*/
+
+/* пленка с кадрами */
+.plenka {
+width:100%;
+height:9rem;
+margin:.5rem auto;
+background-position:center}
+
+.fon1 {
+background-image: url(/img/krfilm/plenkatop1.jpg)}
+
+.fon2 {
+background-image:url(/img/krfilm/plenkatop2.jpg)}
+
+.fon3 {
+background-image:url(/img/bronz_ptica/plenkatop1.jpg)}
+
+.fon4 {
+background-image:url(../img/bronz_ptica/plenkatop2.jpg)}
+
+.fon5 {
+background-image:url(../img/pefilm/plenkatop.jpg)}
+
+.fon6 {
+background-image:url(../img/pefilm/plenkabottom.jpg)}
+
+.fon7 {
+background-image:url(../img/csfilm/plenkatop.jpg)}
+
+.fon8 {
+background-image:url(../img/csfilm/plenkabottom.jpg)}
+/*-----------------------------------------------------*/
+
+.film h1 {
+max-width:70%}
+
+#tnrec {
+display:block;
+width:68%;
+max-width:44rem;
+height:auto;
+margin:2em auto 1em;
+clear:both}
+
+#tnrec .tn-player {
+display:block;
+width:100%;
+max-width:44rem !important;
+min-width:19rem !important;
+height:auto}
+
+#tnrec iframe {
+display:block;
+width:100%;
+max-width:45rem;
+height:auto;
+min-height:34rem}
+
+.format16 {
+min-height:405px !important}
+
+/*адаптивный формат видео*/
+.adap3, .adap16 {
+display:block;
+width:68%;
+max-width:45rem;
+height:auto;
+max-height:36rem;
+margin:0 auto 3rem}
+
+.adap16 {
+max-height:26rem}
+
+#tnrec3, #tnrec16 {
+display:block;
+position:relative;
+margin:0 auto;
+width:100%;
+padding-bottom:75%;
+padding-top:2rem;
+height:0;
+overflow:hidden}
+
+#tnrec16 {
+padding-bottom:56.25%}
+
+#tnrec3 iframe, #tnrec16 iframe {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%}
+/*--------------------*/
+
+/* блок с описанием фильма */
+.descr {
+display:block;
+width:68%;
+max-width:44rem;
+height:auto;
+margin:1.5em auto;
+padding:.8em .6em 1.5em}
+
+.descr2 { /* блок О ФИЛЬМЕ... */
+display:block;
+width:98%;
+height:auto;
+margin:.5rem auto;
+padding-bottom:1.3rem;
+padding-top:.8rem}
+
+.descr p, .descr2 p {
+text-align:justify;
+text-indent:0;
+margin:0;
+padding-left:2em;
+padding-right:2em;
+font:12pt/16pt Tahoma, Geneva, sans-serif}
+
+.descr2 p {
+text-indent:1.5em;
+font:11pt/14pt verdana}
+
+.descr2 img {
+display:block;
+width:auto;
+max-width:94%;
+height:auto;
+margin:0 auto}
+
+.perslovo {
+display:inline-block;
+color:hsla(0,61%,35%,1);
+font-size:110%;
+font-style:italic;
+font-weight:bolder;
+border-bottom:1px ridge #B82E5E;
+margin-bottom:.8em;
+margin-top:.8em}
+
+.min640 {
+min-width:620px !important}
+
+.min680 {
+min-width:680px !important}
+/*-----------------------------------------------------*/
+
+/* фотоальбом */
+.gody {
+display:block;
+margin:1rem auto 0;
+width:70%;
+height:auto;
+text-align:center}
+
+.gody a, .nv-bk a {
+display:inline-block;
+width:auto;
+height:auto;
+color:hsla(330,60%,0%,1);
+line-height:1.2rem;
+vertical-align:middle;
+text-align:center;
+padding:.2em .4em;
+font-size:1.3rem;
+font-family:"MS Serif", "New York", serif;
+font-style:normal;
+font-weight:normal;
+border-right:1px ridge hsla(0,0%,40%,1);
+border-bottom:1px ridge hsla(0,0%,40%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1);
+transition:all .7s ease;
+margin:0 .5rem .5rem 0}
+
+.gody a:hover, .nv-bk a:hover, .pod a:hover {
+color:hsla(0,60%,100%,1);
+background-color:hsla(0,60%,45%,1);
+text-shadow:0 -1px 0 hsla(0,41%,36%,.9)}
+
+.here {
+background-color:hsla(225,60%,45%,1) !important;
+color:hsla(0,60%,100%,1) !important}
+
+.spisok2 {
+display:inline-block;
+width:auto;
+color:hsla(330,60%,0%,1);
+line-height:1em;
+vertical-align:middle;
+text-align:center;
+margin:6px auto;
+padding:.4em .4em;
+font-size:1em;
+font-family:"MS Serif", "New York", serif;
+font-style:normal;
+font-weight:normal;
+border-right:1px ridge hsla(0,0%,40%,1);
+border-bottom:1px ridge hsla(0,0%,40%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1);
+transition:all .7s ease}
+
+.spisok2:hover {
+color:hsla(0,60%,100%,1);
+background-color:hsla(0,60%,45%,1);
+text-shadow:0 -1px 0 hsla(0,41%,36%,.9)}
+/*-----------------------------------------------------*/
+
+/* логотип газеты на странице со статьей */
+.logotip {
+width:64%;
+max-width:18rem;
+box-shadow:.5em .5em .4em hsla(0,0%,0%,.6)}
+
+/* заголовок книги */
+.zg-bk {
+display:inline-block;
+width:auto;
+max-width:70%;
+height:auto;
+font-size:1.8rem;
+margin:.5rem auto 1rem;
+padding:.2rem .4rem;
+line-height:108%}
+
+/* блок с обложкой и таблицей с содержанием книги */
+.nav-for-book {
+display:block;
+width:98%;
+max-width:74rem;
+padding:.1rem;
+height:auto;
+margin:0 auto 2rem;
+background-color:hsla(0,0%,100%,.8);
+font-size:1.1rem;
+font-weight:bold}
+
+.nav-for-book figure {
+display:inline-block;
+margin:.5rem 1rem .5rem .2rem;
+max-width:16%}
+
+.nav-for-book2 {
+display:block;
+width:auto;
+height:auto;
+margin:0 auto 2rem;
+background-color:hsla(0,0%,100%,.8);
+font-size:1.1rem;
+font-weight:bold}
+
+/* картинка обложки книги */
+.kniga-oblojka {
+display:inline-block;
+width:12%;
+max-width:10rem;
+height:auto;
+max-height:16rem;
+margin:1em .6em 1em 0;
+text-align:center;
+vertical-align:top}
+
+.kniga-oblojka img{
+width:100%}
+
+.glavy-oblojka {
+display:inline-block;
+width:78%;
+height:auto;
+margin:.5rem 0;
+padding:.1em 0;
+text-align:center;
+vertical-align:top}
+
+.glavy-oblojka2 {
+display:inline-block;
+width:94%;
+height:auto;
+margin:.5rem 0;
+padding:.1em 0;
+text-align:left}
+
+.str1 {
+display:block;
+width:94%;
+height:auto;
+text-align:left;
+font-size:120%;
+margin:0 0 .3rem .5rem;
+padding:.1rem;
+border-bottom:1px dotted red}
+
+.str1chast {
+border-top:1px dotted red}
+
+.yach1 {
+display:inline-block;
+width:8%;
+min-width:7rem;
+height:auto;
+margin:0 1rem 0 .6rem;
+text-align:left}
+
+.yach1 p{
+display:inline-block;
+width:auto;
+height:auto;
+text-align:left}
+
+.yach2 {
+display:inline-block;
+width:auto;
+height:auto;
+margin-left:.6rem;
+text-align:left}
+
+.yach2 p{
+display:inline-block;
+width:auto;
+height:auto;
+text-align:left;
+margin-bottom:.3rem;
+padding:0 !important;
+line-height:1.2em}
+
+.yach3, .yach4 {
+display:inline-block;
+position:relative;
+width:12%;
+max-width:4rem;
+min-width:4rem;
+height:auto;
+max-height:1.2rem;
+font-size:90%;
+margin:0 .6rem .2rem;
+text-align:center;
+color:black;
+transition:all .6s ease}
+
+.yach4 {
+background:url(/img/audio3.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+transition:all .6s ease}
+
+.yach4:hover {
+background:url(/img/audio3-1.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+transition:all .6s ease}
+
+.yach3 p, .yach3 a, .yach4 a {
+display:inline-block;
+width:100%;
+height:auto;
+text-align:center;
+padding-bottom:.2rem}
+
+.nav-for-book .glavy-oblojka .yach3:hover, .nav-for-book2 .glavy-oblojka2 .yach3:hover {
+color:hsla(0,50%,100%,1);
+background-color:hsla(0,90%,40%,1);
+transition:all .6s ease}
+
+/* заголовок книги над страницей с текстом*/
+.nameofbook1, .nameofbook2 {
+display:inline-block;
+width:auto;
+max-width:70%;
+font-size:1.8rem;
+line-height:106%;
+margin:0 auto 1rem;
+text-shadow:hsla(0,90%,40%,.6) 1px 2px 2px}
+
+/* страница книги */
+.bookpage2 {
+display:block;
+width:auto;
+height:auto;
+margin:0 auto;
+box-sizing:border-box}
+
+.text-of-book2 {
+display:block;
+position:relative;
+width:94%;
+max-width:40rem;
+height:auto;
+padding:2em 1em 3em;
+margin:.5em auto;
+background-color:hsla(0,0%,100%,1);
+border-right:1px ridge hsla(0,70%,0%,1);
+border-bottom:1px ridge hsla(0,70%,0%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1);
+box-sizing:border-box}
+
+.text-of-book2 p {
+margin:0;
+padding:0 2.5rem;
+text-align:justify;
+text-indent:1.5rem;
+font:12.6pt/17pt "Times New Roman", Times, serif}
+
+.text-of-book2 img {
+max-width:98%;
+margin:1rem auto;
+text-align:center;
+text-indent:0}
+
+.text-of-book2 img.fll, .text-of-book2 figure.fll {
+max-width:45%;
+margin:.2rem .2rem .2rem 0}
+
+.text-of-book2 img.flr, .text-of-book2 figure.flr {
+max-width:45%;
+margin:.2rem 0 .2rem .2rem}
+
+.text-of-book2 figure img {
+margin-top:0;
+margin-bottom:.4rem}
+
+/* СТРАНИЦА С ФОТОГРАФИЕЙ */
+.fotopage {
+display:block;
+width:auto;
+max-width:72%;
+margin:0 auto 2rem}
+
+.fotopage .text-of-book2 {
+width:auto;
+max-width:70rem;
+padding-left:1rem;
+padding-right:1rem}
+
+.fotopage .bookpage {
+display:block;
+width:100%}
+
+.fotopage .bookpage .text-of-book {
+display: block;
+width:80%}
+
+.fotopage .bookpage .text-of-book img {
+width:86%;
+border-right:0px ridge hsla(0,70%,100%,1);
+border-bottom:0px ridge hsla(0,70%,100%,1)}
+
+.fcap {
+font:12pt/17pt Verdana;
+margin-top:1rem;
+padding:0 3rem}
+
+.fcap h4 {
+font-weight:normal !important;
+padding:0 2rem;
+margin-top:.5rem !important}
+/*-----------------------------------------------------*/
+
+/* подвал страницы книги: значок принтера, номер страницы и пр. */
+.bookfooter2{
+display:block;
+width:96%;
+height:auto;
+min-height:3rem;
+margin:1em auto 0;
+padding-top:.7em;
+border-top:1px solid hsla(0,60%,45%,1);
+text-align:center}
+
+/* кнопки перехода на следующую страницу книги */
+.nv-bk2 {
+display:block;
+width:74%;
+max-width:44rem;
+height:auto;
+margin:1rem auto;
+padding:0;
+text-align:center;
+-moz-box-sizing:border-box;
+box-sizing:border-box}
+
+.nv-bk2 a {
+display:inline-block;
+width:44%;
+height:auto;
+margin-right:.2em;
+color:hsla(330,60%,0%,1);
+line-height:1.2em;
+vertical-align:middle;
+text-align:center;
+padding:.2em 0em;
+font-size:84%;
+font-family:"MS Serif", "New York", serif;
+font-style:normal;
+font-weight:bold;
+border-right:1px ridge hsla(0,0%,40%,1);
+border-bottom:1px ridge hsla(0,0%,40%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1);
+transition:all .7s ease;
+-moz-box-sizing: border-box;
+box-sizing:border-box}
+
+.nv-bk2 a:hover {
+color:hsla(0,60%,100%,1);
+background-color:hsla(0,60%,45%,1);
+text-shadow:0 -1px 0 hsla(0,41%,36%,.9)}
+
+.nv-bk2 a:first-child {
+width:24%}
+
+.nv-bk2 a:last-child {
+width:24%;
+margin-right:0}
+
+/* секция содержания книги */
+.oblojka2  {
+display:inline-block;
+width:78%;
+height:auto;
+margin-bottom:1em;
+padding:.4em;
+text-align:center;
+vertical-align:top}
+
+.soderjanie {
+display:block;
+width:94%;
+max-width:800px;
+min-width:620px;
+padding:1em;
+height:auto;
+margin:0 auto 2em;
+background-color:hsla(0,0%,100%,.8)}
+
+.oblojka3 {
+display:inline-block;
+width:18%;
+max-width:160px;
+margin-right:.5em}
+
+/* таблица с содержанием книги*/
+.soderjanie2 {
+display:inline-block;
+width:98%;
+height:auto;
+padding:.7em;
+text-align:left;
+vertical-align:top}
+
+.soderjanie2 tr td:nth-of-type(1) {
+width:18%;
+vertical-align:bottom;
+padding:0;
+font-size:120%;
+font-weight:bolder}
+
+.soderjanie2 tr td:nth-of-type(2) {
+width:70%;
+vertical-align:bottom;
+font-size:1.1rem;
+font-weight:bolder}
+
+.soderjanie2 tr td:nth-of-type(3) {
+width:6%;
+text-align:center;
+vertical-align:middle;
+color:black;
+font-size:100% !important}
+
+
+/* значок audio в 4 конке таблицы*/
+.soderjanie2 tr td:nth-of-type(4) {
+width:6%;
+text-align:center;
+vertical-align:middle}
+
+.soderjanie2 tr td:nth-of-type(4) a {
+background:url(/img/audio.png);
+background-repeat:no-repeat;
+background-size:32px 18px}
+
+.soderjanie2 tr td:nth-of-type(4) a:hover {
+background:url(/img/audio2.png);
+background-repeat:no-repeat;
+background-size:32px 18px}
+
+.soderjanie2 tr td a:hover  {
+color:hsla(0,50%,100%,1);
+background-color:hsla(0,90%,40%,1);
+transition:all .6s ease}
+/*-----------------------------------------------------*/
+
+.parts {
+color:hsla(0,60%,0%,1);
+font-size:1.4rem;
+padding:.1rem .3rem;
+margin:.5rem auto .2rem}
+
+.oblojka2 .fmdsod {
+height:16px;
+font-size:.8em}
+
+.oblojka2 .fmdsod:hover {
+font-weight:bold}
+
+/* блок details */
+.bookpages, .bookpages2 {
+display:block;
+clear:both;
+width:70%;
+max-width:60rem;
+background-color:hsla(0,50%,96%,0.8);
+margin:1em auto;
+padding:.1em}
+
+/* убрать маркер с details */
+details summary::-webkit-details-marker {
+display:none}
+
+/* marker set */
+details summary i {
+float:right;
+margin-right:.5em;
+box-shadow:0 0 1px #666; 
+border-radius:4px;
+height:17px;
+width:19px;
+color:hsla(0,0%,25%,1);
+background-color:hsla(0,0%,100%,1);
+padding:2px}
+
+details summary i:hover {
+color:hsla(0,60%,45%,1)}
+
+.textred {
+color:red !important}
+
+.pages .textred:hover {
+color:white !important;
+background-color:blue}
+
+.textblue {
+color:blue !important}
+
+/* блок summary */
+.stranicy {
+display:block;
+width:auto;
+height:auto;
+border:1px ridge hsla(0,0%,0%,1.00);
+background-color:hsla(0,50%,96%,0.8);
+padding:.1em .2em .2em;
+font-size:1.2em;
+font-weight:bold;
+text-shadow:0 0 1px hsla(0,90%,40%,.6);
+transition:all .7s ease}
+
+.stranicy:hover {
+color:hsla(0,60%,100%,1);
+background-color:hsla(0,60%,45%,1);
+border:1px ridge hsla(0,0%,0%,1.00);
+transition:all .7s ease}
+
+details section, details div {
+display:none}
+
+/* блок div с номерами страниц */
+.pages, .pages2 {
+display:none;
+clear:both;
+width:94%;
+height:auto;
+margin:0 auto;
+padding:.5em;
+text-align:center;
+background-color:hsla(0,50%,96%,0.8);
+border-radius:10px}
+
+/* кнопка номера страницы */
+.pages a, .soderjanie2 tr td a {
+display:inline-block;
+text-align:center;
+width:2.3rem;
+height:1rem;
+margin:.2rem .1rem .2rem 0;
+padding:.2rem 0;
+font-size:1rem}
+/*-----------------------------------------------------*/
+
+/* слушать книгу online */
+.audioonline {
+display:block;
+width:86%;
+height:auto;
+max-height:66px;
+text-align:center;
+margin:.5em auto 2em;
+padding:1em;
+border:2px ridge hsla(346,94%,37%,1);
+border-radius:6px}
+
+.podster_share_vk {
+display:none !important}
+
+.slt {
+display:inline-block;
+margin-top:.5em;
+font-size:.8em;
+font-weight:normal;
+color:hsla(0,60%,45%,1);
+text-shadow:none}
+
+.w460 {
+width:420px !important;
+height:auto;
+text-align:center !important}
+/*-----------------------------------------------------*/
+
+/* страница книги */
+.bookpage {
+display:block;
+width:620px;
+height:auto;
+margin:0 auto;
+box-sizing:border-box}
+
+.text-of-book {
+width:70%;
+min-width:620px;
+height:auto;
+padding:2em 0 3em;
+margin:.5em auto;
+background-color:hsla(0,0%,100%,1);
+border-right:1px ridge hsla(0,70%,0%,1);
+border-bottom:1px ridge hsla(0,70%,0%,1);
+border-top:1px ridge hsla(0,70%,100%,1);
+border-left:1px ridge hsla(0,70%,100%,1)}
+
+.text-of-book p {
+margin:0;
+padding:0 2.5em;
+text-align:justify;
+text-indent:1.5em;
+font:12.6pt/17pt "Times New Roman", Times, serif}
+
+.text-of-book img {
+max-width:86%;
+margin:1rem auto;
+text-align:center;
+text-indent:0}
+
+.text-of-book img.fll {
+margin:.3em .5em .2em 2.5em}
+
+/* блок с фотографиями */
+.gallery {
+width:90%;
+min-width:inherit;
+margin:0 auto;
+text-align:center}
+
+.gallery figure img {
+max-width:80%}
+
+/* фото в тексте обтекание справа */
+.imgl {
+float:left;
+padding:0 .8em .1em 2.5em}
+
+
+/* ссылка в тексте книги */
+.atext, .atext2 {
+width:auto !important;
+height:auto !important;
+font-weight:600;
+text-indent:0;
+border-radius:.4rem;
+padding:0 .3rem .1rem;
+background-color: hsla(210,51%,60%,0.2);
+transition:all .7s ease}
+
+.atext:hover, .atext2:hover {
+color:hsla(0,50%,100%,1);
+background-color:hsla(0,61%,35%,.8)}
+
+.atext2 {
+font-weight:normal !important}
+
+/* кнопки перехода на следующую страницу книги */
+.nv-bk {
+width:600px;
+height:auto;
+margin:1em auto;
+text-align:center}
+
+.nvpss {
+width:600px}
+
+.nv-bk a {
+width:140px;
+padding:.2em .4em}
+
+.nv-bk a:first-child {
+float:left}
+
+.nv-bk a:last-child {
+float:right}
+
+/* страница ПСС Достоевского */
+.pss {
+display:block;
+width:600px !important;
+margin:0 auto;
+white-space:normal}
+
+.pss p {
+margin:0;
+text-align:justify;
+text-indent:24px;
+line-height:116% !important;
+font:12.6pt/17pt "Times New Roman", Times, serif;
+-moz-hyphens:auto ;
+-webkit-hyphens:auto;
+-ms-hyphens:auto}
+
+.nobrake {
+display:inline;
+text-indent:0;
+width:auto;
+white-space:nowrap;
+text-align:justify !important}
+
+.fstroka::after{ /* растяжение последней строки на странице */
+content:"                                                                                             "}
+
+.fmd1 { /* заголовок раздела ПСС Достоевского */ 
+margin-bottom:4rem;
+font-weight:normal;
+font-family:'Academy Old';
+margin-top:12rem}
+
+.stih {
+display:inline-block;
+margin:0 auto !important;
+text-indent:0 !important}
+
+.fmdstih{
+display:inline-block;
+width:auto;
+height:auto;
+margin:0 auto;
+clear:both}
+
+/* подвал страницы книги: значок принтера, номер страницы и пр. */
+.bookfooter{
+display:block;
+width:90%;
+height:auto;
+min-height:42px;
+margin:1em auto 0;
+padding-top:10px;
+border-top:1px solid hsla(0,60%,45%,1);
+text-align:center}
+
+/* номер страницы */
+#nomstr, #fotostr, #audiostr {
+color:hsla(0,0%,0%,1);
+font-size:110%;
+font-weight:normal;
+padding-right:0;
+float:right}
+
+p#nomstr::before{
+margin-right:4px;
+content:"страница "}
+
+p#fotostr::before {
+content:"фото "}
+
+p#audiostr::before{
+margin-right:4px;
+content:"аудио "}
+
+/* КНОПКИ В ПОДВАЛЕ СТРАНИЦЫ КНИГИ */
+#pechat, #audioon, #djvu, #pdf, #word, #txt, #original, #html, #mp3, #mp33, #mp3-2, #video, #imgicon {
+display:block;
+padding:.2rem;
+float:left;
+width:2rem;
+height:2rem;
+margin-right:.5rem;
+background-repeat:no-repeat;
+background-size:cover;
+border:2px ridge transparent;
+transition:all .6s ease}
+
+#pechat:hover, #audioon:hover, #djvu:hover, #pdf:hover, #txt:hover, #original:hover, #html:hover, #mp3:hover, #mp3-2:hover, #mp33:hover, #video:hover, #imgicon:hover, #fullscreen:hover, #word:hover {
+border-color:red}
+
+/* кнопка принтера */
+#pechat {
+background-image:url(../img/pechat.png)}
+
+/* КНОПКА СЛУШАТЬ ТЕКСТ */
+#audioon {
+background-image: url(/img/AUDIO9.png)}
+
+/* кнопка страницы djvu */
+#djvu {
+background-image:url(/img/djvu.png)}
+
+/* кнопка страницы pdf */
+#pdf {
+background-image:url("../img/pdf2.png")}
+
+/* кнопка страницы word */
+#word {
+background-image:url("/img/word.png")}
+
+/* кнопка страницы оригинального формата */
+#original {
+background-image:url(/img/original.png)}
+
+/* КНОПКА ТЕКСТ НА СТРАНИЦЕ КНИГИ */
+#html, #txt {
+background-image:url("/img/TXT2.png")}
+
+/* кнопка страницы mp3 формата */
+#mp3, #mp3-2 {
+background-image:url(/img/mp3.png)}
+
+#mp33 {
+background-image:url(/img/mp3-2.png)}
+
+/* кнопка перехода к видео */
+#video {
+background-image:url(/img/video.png)}
+
+/* КНОПКА СЛАЙДШОУ НА СТРАНИЦЕ КНИГИ */
+#imgicon {
+background-image:url(/img/SLIDE.png)}
+/************************************************/
+
+/* текст курсивом */
+.crs {
+font-style:italic !important;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif  !important;
+font-size:90% !important}
+
+.fmdcrs {
+font-style:italic !important}
+
+.t-a-r {
+text-align:right !important}
+
+.t-a-l {
+text-align:left !important}
+
+.t-i-0 {
+text-indent:0 !important}
+
+.t-a-c {
+text-align:center !important;
+padding-left:0 !important;
+padding-right:0!important}
+
+.p-l-r-0{
+padding-left:0 !important;
+padding-right:0 !important}
+
+.t-a-m {
+vertical-align:middle}
+
+.m-0-a {
+margin:0 auto !important}
+
+.t-i-b { /* текст в рамке */
+display:block;
+width:84%;
+border:black solid 1px;
+margin:1rem auto}
+
+.t-d-u {
+text-decoration:underline}
+
+.marlf {
+margin-left:7rem !important}
+
+.mar2lf {
+margin-left:2rem !important}
+
+.mar3lf {
+margin-left:3rem !important}
+
+.mar4lf {
+margin-left:4rem !important}
+
+.mar5lf {
+margin-left:5rem !important}
+
+.mar14lf {
+margin-left:14rem !important}
+
+.mar16lf {
+margin-left:16rem !important}
+
+.mar1r {
+margin-right:1rem !important}
+
+.mar2r {
+margin-right:2rem !important}
+
+.mar3r {
+margin-right:3rem !important}
+
+.mar4r {
+margin-right:4rem !important}
+
+.mar6r {
+margin-right:4rem !important}
+
+.mar8r {
+margin-right:6rem !important}
+
+.mar10r {
+margin-right:10rem !important}
+
+.martp {
+margin-top:1.5rem !important}
+
+.matsl {
+font-family:Arial, Helvetica, sans-serif !important;
+margin-left:7em !important;
+font-size:.9em !important;
+text-indent:0 !important}
+
+.d-i-b {
+display:inline-block;
+width:auto}
+
+.wd50 {
+width:50%}
+
+.wd60 {
+width:60%}
+
+.rud {
+margin-left:4em !important;
+font-size:94% !important}
+
+/* сноски в тексте */
+.note {
+display:inline-block;
+margin-right:1px;
+margin-left:0.3em;
+padding-right:1px;
+margin-top:-4px;
+text-indent:0 !important;
+vertical-align:super;
+font-weight:bold;
+color:hsla(339,60%,45%,1);
+font-size:70% !important;
+font-family: Arial, Helvetica, sans-serif}
+
+.notesub {
+vertical-align:sub;
+font-size:80%}
+
+.note2 {
+vertical-align:sub;
+color:inherit;
+font-weight:normal;}
+
+/* имитация sub без смещения нижней строки */
+.fmdsub {
+font-size:64%}
+
+.fmdtbl {
+display:table;
+width:84%;
+margin:0 auto;
+padding:0 2.5rem;
+text-align:justify;
+text-indent:0;
+font:12.6pt/17pt "Times New Roman", Times, serif}
+
+.fmdtbl tr td {
+overflow-wrap:break-word;
+word-wrap:break-word;
+-webkit-hyphens:auto;
+-ms-hyphens:auto;
+-moz-hyphens:auto;
+-o-hyphens:auto;
+hyphens:auto;
+
+-ms-hyphenate-limit-chars:6 3 3;
+-webkit-hyphenate-limit-chars:6 3 3;
+-moz-hyphenate-limit-chars:6 3 3;
+-o-hyphenate-limit-chars:6 3 3;
+-webkit-hyphenate-limit-before:3;
+-webkit-hyphenate-limit-after:3;
+hyphenate-limit-chars:6 3 3;
+
+-ms-hyphenate-limit-lines:2;
+-webkit-hyphenate-limit-lines:2;
+-moz-hyphenate-limit-lines:2;
+-o-hyphenate-limit-lines:2;
+hyphenate-limit-lines:2;
+/* запрет переноса последнего слова в абзаце */
+-ms-hyphenate-limit-last:always;
+-webkit-hyphenate-limit-last:always;
+-moz-hyphenate-limit-last:always;
+-o-hyphenate-limit-last:always;
+hyphenate-limit-last:always}
+
+.fmdtbl tr td .atext {
+font-weight:normal}
+
+.fmdtbl tr td:first-child {
+text-align:right;
+width:auto;
+min-width:1.5rem}
+
+.fmdtbl tr td:last-child {
+width:auto}
+
+/* сноска под текстом */
+p.botnote1, p.botnote {
+display:block;
+width:84% !important;
+height:auto;
+margin:0 auto .3rem;
+padding:0 !important;
+text-indent:0;
+font-style:italic;
+font-size:.9rem}
+
+/* первая сноска под текстом */
+p.botnote1 {
+border-top:1px dashed hsla(219,60%,35%,1);
+margin-top:1.2em;
+padding-top:.7em !important}
+
+/* сноски в тексте для ПСС Достоевского */
+.fmdbotnote {
+font-size:90% !important;
+line-height:130% !important}
+/*---------------------------------*/
+
+.blk {
+color:inherit !important}
+
+.mtb {
+margin-top:.8em !important;
+margin-bottom:.8em !important;
+text-align:center !important;
+text-indent:0 !important}
+
+.mt10 {
+margin-top:-1.5rem !important}
+
+.mb-10 {
+margin-top:-4px !important}
+
+.mb10 {
+margin-bottom:10px !important}
+
+.mbem {
+margin-bottom:.5em !important}
+
+.mbem1 {
+margin-bottom:1em !important}
+
+.mbem2 {
+margin-bottom:2rem !important}
+
+.clboth {
+clear:both}
+/*-----------------------------------------------------*/
+
+.fmdfooter{/* подвал страницы книги: значок принтера, соц. сети, номер страницы */
+display:block;
+width:460px;
+height:auto;
+margin:20px auto 0;
+padding-top:10px;
+border-top:1px solid hsla(330,60%,45%,1);
+text-align:center}
+
+#fmdpechat {
+display:block;
+width:22px;
+height:22px;
+background-image:url(/img/pechat.png);
+margin-top:16px;
+margin-right:66px; /* выравнивание кнопки соц. сетей по центру */
+float:left}
+
+.fmdstrokal, .fmdstrokar, .fmdstrokali {
+position:absolute;
+display:inline-block;
+color:hsla(339,60%,45%,1);
+font-size:10pt;
+font-style:normal}
+
+.fmdstrokal {
+left:1rem}
+
+.fmdstrokali {
+left:24px}
+
+.fmdstrokar {
+right:26px}
+
+/*-----------------------------------------------------*/
+
+/* кнопка */
+.knp {
+display:inline-block;
+width:auto;
+max-width:90%;
+padding:.2rem .5rem !important;
+text-indent:0 !important;
+text-align:center !important;
+color:black;
+transition:all .7s ease}
+
+.knp:hover, .pages a:hover  {
+color:hsla(0,50%,100%,1);
+background-color:hsla(0,90%,40%,1);
+transition:all 1s ease}
+
+/* кнопка под номерами страниц */
+.soderjanie .knp {
+min-width:60% !important}
+
+.knp2 {
+padding:1px !important;
+line-height:110%}
+
+/*-----------------------------------------------------*/
+
+.tfilm { /* блок для teaser player */
+width:640px;
+margin:0 auto}
+
+#f45916 {
+display:block;
+width:66%;
+max-width:45rem;
+height:auto;
+margin:0 auto}
+
+.admin2 ._100 {
+width:100%;
+max-width:100%}
+
+.dvoinik {
+width:76% !important;
+margin:0 auto 1rem !important;
+line-height:1.2rem !important}
+
+/* Сергей Шевкуненко */
+.fn1 {
+background-image:url(/img/biogfon2.png)}
+
+/* Анатолий Рыбаков */
+.fn2 {
+background-image:url(/img/rybakov/biografy/rybakovfon.png)}
+
+.fn3 {
+border-left:2px ridge hsla(330,60%,45%,.9);
+border-right:2px ridge hsla(330,60%,45%,.9)}
+
+/* фильм Кортик */
+.fn4 {
+background-image:url(/img/krfilm/fon.png)}
+
+/* фильм Бронзовая птица */
+.fn5 {
+background-image:url("/img/bronz_ptica/bpfon.png")}
+
+/* фильм Белое солнце пустыни */
+.fn6 {
+background-image:url("/img/fon/solnce.png")}
+
+/* фильм 50 на 50 */
+.fn7 {
+background-image:url("/img/fon/50.png")}
+
+/* фильм Подруги */
+.fn8 {
+background-image:url("/img/fon/podrugi.png")}
+
+/* фильм Хороший Плохой Злой */
+.fn9 {
+background-image:url("/img/fon/hpz.png")}
+
+/* фильм За пригоршню долларов */
+.fn10 {
+background-image:url("/img/fon/dollars1.png")}
+
+/* фильм На несколько долларов больше */
+.fn11 {
+background-image:url("/img/fon/dollars2.png")}
+
+/* фильм Колос Родосский */
+.fn12 {
+background-image:url("/img/fon/coloss.png")}
+
+/* фильм Однажды на диком западе */
+.fn13 {
+background-image:url("/img/fon/dollars4.png")}
+
+/* фильм За пригоршню динамита */
+.fn14 {
+background-image:url("/img/fon/dollars6.png")}
+
+/* ПСС 1 Достоевский */
+.pss1 {
+background-image:url("../img/fmd/fon1.png")}
+
+/* фильм Девочка ищет отца */
+.fn15 {
+background-image:url("/img/fon/kalinin1.png")}
+
+/* фильм Однажды в Америке */
+.fn16 {
+background-image:url("/img/fon/dollars8.png")}
+
+/* фильм Украли трамвай */
+.fn17 {
+background-image:url("/img/fon/ukrali.png")}
+
+/* фильм Улица младшего сына */
+.fn18 {
+background-image:url("/img/fon/ulica.png")}
+
+/* фильм Третья ракета */
+.fn19 {
+background-image:url("/img/fon/raketa.png")}
+
+/* фильм Через кладбище */
+.fn20 {
+background-image:url("/img/fon/kladbishe.png")}
+
+/* фильм Город Мастеров */
+.fn21 {
+background-image:url("/img/fon/gorod.png")}
+
+/* фильм Саша-Сашенька */
+.fn22 {
+background-image:url("/img/fon/sasha.png")}
+
+/* фильм Запомни этот день */
+.fn23 {
+background-image:url("/img/fon/zapomni.png")}
+
+/* фильм Крушение империи */
+.fn24 {
+background-image:url("/img/fon/krushenie.png")}
+
+/* фильм Сотвори бой */
+.fn25 {
+background-image:url("/img/fon/sotvori.png")}
+
+/* фильм Кряжонок */
+.fn26 {
+background-image:url("/img/fon/kryajonok.png")}
+
+/* фильм Рудобельская республика */
+.fn27 {
+background-image:url("/img/fon/rudobel.png")}
+
+/* фильм Идущие за горизонт */
+.fn28 {
+background-image:url("/img/fon/gorizont.png")}
+
+/* Николай Калинин */
+.fn29 {
+background-image:url("/img/fon/kalinin.png")}
+
+/* фильм Кортик */
+.fn30 {
+background-image:url("/img/fon/kortik.png")}
+
+/* фильм Кортик 1954*/
+.fn31 {
+background-image:url("/img/fon/kortik1954.png")}

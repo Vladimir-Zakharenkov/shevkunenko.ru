@@ -1,0 +1,87 @@
+body {background-color:#EEE;}
+
+.navigation {width:580px;
+		height:auto;
+		margin:0 auto;}
+
+.main3 {width:720px;
+		height:auto;
+		margin:0 auto;}
+
+.navigation p a:hover, .main3 p a:hover {color:#F00;}
+	
+h1 {font-size:150%;}	
+
+h4 {color:maroon;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:12pt;}
+
+.knopkidiv {width:100%;
+			height:auto;
+			margin:0 auto;
+			font-weight:bold;
+			padding:4px 0;
+			border-top-width:1px;
+			border-right-width:0;
+			border-bottom-width:1px;
+			border-left-width:0;
+			border-color:maroon;
+			border-style:double;
+			text-align:center;}
+
+.knopkidiv a {display:inline-block;
+			  font-size:11pt;
+			  font-style:italic;
+			  color:blue;
+			  width:auto;}
+			 
+.knopkidiv a:first-child {float:left;
+						  margin-top:2px;
+						  width:80px;
+						  text-align:left;}
+						 
+.knopkidiv a:last-child {float:right;;
+						 margin-top:2px;
+						 width:80px;}
+
+.knopkidiv a:link, .knopkidiv a:active, .knopkidiv a:visited {color:blue;}
+
+.knopkidiv a:hover, .foto p a:hover {color:red;}
+
+h6 {font-size:13pt;
+	font-weight:bold;
+	margin:10px auto;
+	color:#000;}
+
+.textknigi {margin:15px auto;
+			padding:0 8px;}
+
+.textknigi p {margin:0;
+			  text-align:justify;
+			  text-indent:35px;
+			  font:12pt/17pt verdana;}
+			 
+i {font-size:14pt;
+   font-family:"Courier New", Courier, monospace;
+   font-weight:bolder;}			 
+			 
+h2 {margin:12px auto 8px;
+	text-indent:0;
+	font-size:16pt;}
+
+.note {display:inline;
+	   vertical-align:super;
+	   font:10pt/12pt verdana;
+	   font-weight:bold;
+	   color:maroon;}
+	
+p.botnote1, p.botnote {text-indent:0;
+					   font-style:italic;
+					   font-size:11pt;}
+					
+p.botnote1 {border-top:2px dashed maroon;
+			margin-top:18px;}
+
+li {text-align:left;
+	margin-bottom:8px;}

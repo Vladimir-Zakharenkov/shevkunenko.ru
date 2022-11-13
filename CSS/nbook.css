@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+/* триада #B82E5E hsla(339,60%,45%,1) #5EB82E hsla(99,60%,45%,1) #2E5EB8 hsla(219,60%,45%,1) */
+
+.navigation {	width:580px;
+			height:auto;
+			margin:0 auto;}
+
+.main3 {width:720px;
+		height:auto;
+		margin:0 auto;}
+
+h4 {color:black;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-size:12pt;}
+
+.knopkidiv .mbut {	display:inline-block;
+					width:100px;
+					margin:0;
+					font:bold 12px 'Trebuchet MS',Arial, Helvetica;
+					text-align:center;
+					color:#FFF;
+					text-shadow:0 1px 0 rgba(0,0,0,0.4);
+					border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+					border:1px solid rgba(0, 0, 0, 0.3);
+					-webkit-box-shadow:0 0 10px #0CF;
+					-moz-box-shadow:0 0 10px #0CF;
+					box-shadow:0 0 10px #0CF;
+					background:#4477a1;
+					background:-webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );
+					background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1);
+					filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');}		
+
+.knopkidiv .mbut, .knopkidiv .mbut span {-moz-border-radius:.3em;
+										 border-radius:.3em;}
+
+.knopkidiv .mbut span {	display:inline-block;
+						border-top:1px solid #fff; /* Fallback style */
+						border-top:1px solid rgba(255, 255, 255, 0.5);
+						padding:0 3px;
+						/* Фон кнопки */
+						background:#4477a1;
+						background:-webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );
+						background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1);
+						filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');}
+
+.knopkidiv .mbut:hover {opacity:0.5;
+						border-color:#00F;
+						/*свечение*/
+						-webkit-box-shadow:0px 0px 10px rgba(0,0,255,1);
+						-moz-box-shadow: 0px 0px 10px rgba(0,0,255,1);
+						box-shadow: 0px 0px 10px rgba(0,0,255,1);}
+
+.knopkidiv {width:100%;
+			height:auto;
+			margin:0 auto;
+			font-weight:bold;
+			padding:8px 0;
+			border-top-width:1px;
+			border-right-width:0;
+			border-bottom-width:1px;
+			border-left-width:0;
+			border-color:#009;
+			border-style:double;
+			text-align:center;}
+
+.knopkidiv a:first-child {	float:left;
+							width:70px;}
+
+.knopkidiv a:last-child {	float:right;;
+							width:70px;}
+							
+/*****************************************/
+							
+
+
+h6 {font-size:13pt;
+	font-weight:bold;
+	margin:10px auto;
+	color:#000;}
+
+.textknigi {margin:15px auto;
+			padding:12px;
+			border-left:solid 1px #000099;
+			border-right:solid 1px #000099;}
+
+.textknigi h2 {	margin:8px auto 26px !important;
+				text-indent:0;
+				font-size:16pt;}
+
+.textknigi p {	margin:0;
+				text-align:justify;
+				text-indent:35px;
+				font:12pt/17pt verdana;}
+				
+.textknigi .mbut {	text-indent:0;
+					margin:0;
+					font:10pt/15pt verdana;}
+
+.textknigi .kratko {font-size:10pt;
+					font-family:Tahoma, Geneva, sans-serif;
+					font-style:italic;
+					width:80%;
+					text-indent:0;
+					margin:16px auto;}
+
+i {font-family:"Courier New", Courier, monospace;}
+
+.textknigi .crs {	font-style:italic;
+					font-family:"Courier New", Courier, monospace;
+					font-size:14pt;}
+
+					
+
+/* текст книги */					
+
+.raised img {
+max-width:500px !important;
+margin:10px auto}
+
+
+
+.raised table tr td {
+vertical-align:top}
+
+.raised table tr td p {
+text-indent:0;
+text-align:left}
+
+td.shir {
+width:35%}
+
+ul li {
+font:12pt/17pt verdana}	   
+/***********************/
+
+/* текст курсивом */
+.raised .crs {
+font-style:italic;
+font-family:"Courier New", Courier, monospace;
+font-size:1.1em}
+
+/* жирный текст */
+.prs, .raised table tr td p.prs {
+font-weight:bold}
+
+/* отступ строки 0 */
+.ots {
+text-indent:0 !important}
+
+
+.note {
+display:inline;
+vertical-align:super;
+font-weight:bold;
+color:hsla(339,60%,45%,1);
+font-size:.7em !important;
+font-family:Verdana, Geneva, sans-serif}
+
+p.botnote1, p.botnote {
+text-indent:0;
+font-style:italic;
+font-size:.8em}
+
+p.botnote1 {
+border-top:2px dashed hsla(219,60%,35%,1);
+margin-top:1.2em}
+
+li {text-align:left;
+	margin-bottom:8px}

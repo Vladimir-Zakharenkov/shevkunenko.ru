@@ -1,0 +1,87 @@
+@charset "windows-1251";
+/* CSS Document */
+
+#belarus {display:block;
+		  width:auto;
+		  height:auto;
+		  margin:8px auto 4px;}
+		 
+#belarus .navy {width:auto;}		 
+
+h3 {text-align:center;
+	font:14pt cursive;
+	font-weight:normal;
+	margin:80px 0 15px;
+	clear:both;}
+
+#navigation {width:640px;
+		height:auto;
+		margin:14px auto;
+		padding:0 5px;
+		border-width:0 1px;
+		border-color:#000;
+		border-style:ridge;}
+
+h6 {font-size:13pt;
+	font-weight:bold;
+	margin:12px auto;
+	clear:both;
+	color:#00F;}
+
+#navigation p {text-align:justify;
+		  text-indent:35px;
+		  line-height:1.4em;
+		  font:12pt/17pt verdana;
+		  padding:0 14px;
+		  margin:3px 0;}
+		 
+.express {display:block;
+		  width:220px;
+		  margin:0 15px;
+		  padding:0;
+		  float:left;}
+		 
+.underfoto {width:auto;
+			margin:0 !important;
+			text-indent:0 !important;
+			line-height:12pt !important;
+			color:#00f;
+			font-size:8pt !important;
+			text-align:center !important;}
+
+.vopros {font:12pt cursive !important;
+		 font-weight:bold !important;}
+
+.unimgb, .unimgf {width:auto;
+				  text-decoration:none;
+				  color:#000;
+				  font-size:120%;
+				  font-weight:bold;
+				  font-style:italic;}
+				
+.unimgb {float:left;}
+							
+.unimgf {float:right;}
+		
+.unimgb:hover, .unimgf:hover {color:#f00;}
+
+.otvet {font-weight:bolder !important;
+		margin:12px 0 !important;
+		font-size:11pt !important;}
+
+#comm {display:block;
+	   margin:0 auto;
+	   width:105px;
+	   height:25px;
+	   background-image:url(/img/pressa/koment.png);}
+	
+.stihi {display:block;
+		width:420px;
+		margin:24px 0 24px 260px;}
+
+.stihi p {text-align:left !important;
+		  text-indent:0 !important;
+		  font-size:11pt !important;
+		  font-style:italic !important;}
+		 
+.stihi #podpis {text-align:left !important;}

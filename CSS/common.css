@@ -1,0 +1,1405 @@
+@charset "utf-8";
+/* CSS Document */
+/* триада #B82E5E hsla(330,60%,45%,1) #2E5EB8 hsla(210,60%,45%,1) #5EB82E hsla(90,60%,45%,1) */
+
+/* Add a "gradient" class to all your elements that have a gradient, and add the following override to your HTML to complete the IE9 support */
+
+html, body, header, footer, article, main, section, figure {
+display:block;
+width:100%;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+padding:0}
+
+#mnbd {
+display:block;
+width:100%;
+height:100%;
+margin:0 auto;
+padding:1px}
+
+footer {
+margin-left:14px}
+
+figure {
+margin:10px}
+
+body {
+font-size:1em;
+color:hsla(0,0%,26%,1);
+background:hsla(0,0%,90%,1)}
+
+.ma {
+margin-left:auto;
+margin-right:auto}
+
+/* index.html */
+/* кнопки навигации */
+
+nav{
+display:block;
+color:white; /* Запасной стиль для старых браузеров */
+clear:both;
+width:94%;
+height:auto;
+margin:10px auto;
+padding:14px;
+text-align:center;
+border:0}
+
+header nav {
+border-bottom:solid 1px hsla(330,45%,55%,1)}
+
+footer nav {
+border-top:solid 1px hsla(330,45%,55%,1)}
+
+nav a{
+display:inline-block;
+width:auto;
+margin-right:8px;
+font:normal 1em 'Arial', 'Helvetica CY', 'Nimbus Sans L', sans-serif;
+text-align:center;
+color:hsla(0,0%,100%,1);
+color:white; /* Запасной стиль для старых браузеров */
+text-shadow:0 1px 0 hsla(0,0%,0%,0.4);
+border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+border:1px solid hsla(0,0%,0%,0.6);
+-webkit-box-shadow:0 0 8px hsla(330,60%,45%,1);
+box-shadow:0 0 8px hsla(330,60%,45%,1);
+/* радиус кнопок навигации */
+-webkit-border-radius:0em;
+border-radius:0em}
+
+/*свечение кнопки навигации по сайту*/
+nav a:hover{
+opacity:0.7;
+color:hsla(330,70%,45%,1);
+border-color:hsla(330,60%,25%,1);
+-webkit-box-shadow:0 0 26px hsla(219,60%,45%,1);
+box-shadow:0 0 26px hsla(219,60%,45%,1)}
+
+nav a span{
+display:inline-block;
+border-top:1px solid #fff; /* Fallback style */
+border-top:1px solid hsla(0,0%,100%,0.5);
+padding:0 6px 4px}
+
+nav a span{
+font-size:12px}
+
+nav a, nav a span{
+background:#2E5EB8; /* Old browsers */
+background:hsla(219,60%,45%,1);
+background:-moz-linear-gradient(top, hsla(206,64%,72%,1) 22%, hsla(212,67%,36%,1) 100%); /* FF3.6+ */
+background:linear-gradient(to bottom, hsla(206,64%,72%,1) 22%,hsla(212,67%,36%,1) 100%); /* W3C */
+}
+/*-----------------------*/
+
+h1 {
+font-size:2.2em}
+
+h2 {
+font-size:1.5em}
+
+.blk {
+color:#000 !important}
+
+/* рекламные блоки */
+#lx_511977 {
+margin:0 auto}
+
+#mediarec {
+float:right;
+width:170px;
+max-width:170px !important;
+height:auto}
+
+#teaserrec {
+float:left;
+width:170px;
+max-width:170px !important;
+height:auto}
+
+/* ----------------------------- */
+
+.noind {display:none;}
+ 
+#yandshare {margin:10px auto;}
+
+span.nevidno {display:none;}
+
+img {
+border:0}
+
+a {text-decoration:none}
+
+.navy {	color:maroon;
+		text-align:center !important;
+		margin:16px auto;
+		width:700px;
+		border-top:1px double #900;
+		border-bottom:1px double #900;
+		font:12pt/17pt Verdana, Geneva, sans-serif;}
+
+a:hover {background-position:right;}	
+
+.navy a:link, .navy a:active, .navy a:visited{color:maroon;}
+
+.navy a:hover{	color:white;
+				text-decoration:underline;
+				background-color:black;}
+
+
+/* Кнопка-книга, кнопка-фильм */
+
+.kniga {	display:inline-block;
+		width:125px;
+		height:230px;
+		margin-right:19px;
+		margin-bottom:6px;}
+
+.nevidno {display:none !important}		
+
+/*----------------------------------------------*/
+
+/* Статьи */
+
+.istochnik {font-size:14pt;
+			text-align:center;
+			margin-top:8px;}
+
+.statiya {	width:640px;
+			height:auto;
+			margin:14px auto 20px;
+			padding:0 5px;
+			border-width:0 1px;
+			border-color:#000;
+			border-style:ridge;}
+ 
+.statiya p {text-align:justify;
+			text-indent:35px;
+			line-height:1.4em;
+			font:12pt/17pt verdana;
+			padding:0 14px;
+			margin:3px 0;}
+
+.statiya .otvet {font-family:"Courier New", Courier, monospace;
+				 margin:12px 0;
+				 font-size:100%;
+				 font-style:italic;}
+
+h6 {font-size:15pt;
+	font-weight:bold;
+	margin:12px auto;
+	clear:both;
+	color:#4477a1}
+
+h2 {
+margin:12px auto}
+
+.express {	width:220px;
+			margin:0 10px;
+			height:auto;
+			padding:0;
+			float:left;}
+
+.underfoto {width:auto;
+			margin:0;
+			text-indent:0 !important;
+			line-height:12pt !important;
+			color:#00f;
+			font-size:8pt !important;
+			text-align:center !important;}
+			
+.raised img {
+max-width:500px !important;
+margin:10px auto}
+
+/*----------------------------------------------*/
+
+
+/* биографии */
+
+.biog {
+width:600px;
+height:auto;
+min-height:300px;
+margin:20px auto;
+border:ridge hsla(219,60%,45%,1);
+border-width:0 2px}
+
+.ftb {
+float:left;
+width:150px;
+height:auto}
+
+.ris {
+font-weight:bold;
+text-indent:0;
+text-align:left}
+
+.biog p {
+font-family:Verdana, Geneva, sans-serif;
+font-size:13pt;
+line-height:1.4em;
+margin:0;
+text-indent:30px;
+text-align:justify;
+padding:0 16px}
+
+.pesa {/* текст в биографии выделенный другим шрифтом и курсивом */
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:italic}
+
+.raised .pesa {/* текст от автора в ппьесе */
+margin-top:12px;
+margin-bottom:12px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:italic}
+
+/*--------------------------------------------*/
+
+
+
+
+.biog h2 {clear:both;}
+
+.sgrup {width:164px;
+		height:auto;
+		float:left;}
+/*----------------------------------------------*/
+
+/* Фотоальбом */
+
+.fotlis {width:606px;
+		 height:auto;
+		 margin:0 auto;}
+
+#albumdiv {	width:680px;
+			margin:0 auto;
+			height:auto;}
+
+#albumdiv a {display:inline-block;
+			width:128px;
+			height:120px;
+			background:url('/img/fonplenka.png');}
+
+#csalbom {	width:606px;
+			margin:0 auto;
+			height:auto;
+			background:url('/img/fonplenka.png');}
+
+#csalbom a {	display:inline-block;
+			width:128px;
+			height:98px;
+			margin:1px;}
+
+#csalbomv p {font:12pt/17pt Verdana, Geneva, sans-serif;}
+
+p .nj:hover {color:#F00;}
+
+/*----------------------------------------------*/
+#onmn2 {display:block;
+		margin:0 auto;
+		width:105px;
+		height:34px;
+		background-image:url(/img/knopki/main.png);}
+
+p a:hover, div a:hover, #dvdlogo:hover, #perehod a:hover, p #comm:hover {background-position:right;}
+
+hr {
+width:320px;
+margin:20px auto;
+color:hsla(330,60%,45%,.9);
+border-color:hsla(330,60%,45%,.9)}
+/*----------------------------------------------*/
+
+
+
+/* кнопки навигации по сайту */
+.menubar {
+display:block;
+clear:both;
+width:auto;
+width:840px;
+height:auto;
+margin:10px auto;
+padding:14px;
+border-bottom:solid 1px hsla(330,45%,55%,1);
+border-top:solid 1px hsla(330,45%,55%,1)}
+
+.menubar:first-child {
+border-top:solid 0px hsla(330,45%,55%,1)}
+
+.menubar:last-child {
+border-bottom:solid 0px hsla(330,45%,55%,1)}			
+
+.mbut, .unimgb, .unimgf, .knopkidiv a, .menubar a {	
+display:inline-block;
+width:auto;
+margin:0 6px;
+font:normal 14px 'Trebuchet MS',Arial, Helvetica;
+text-align:center;
+color:#FFF;
+text-shadow:0 1px 0 rgba(0,0,0,0.4);
+border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+border:1px solid rgba(0, 0, 0, 0.3);
+-webkit-box-shadow:0 0 10px #0CF;
+box-shadow:0 0 10px #0CF;
+background:#4477a1;
+background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1)}
+
+.mbut, .mbut span, .unimgb, .unimgb span, .unimgf, .unimgf span, .knopkidiv a, .menubar a {
+border-radius:.4em;}
+
+.mbut span, .unimgb span, .unimgf span, .knopkidiv a span, .menubar a span {
+display:inline-block;
+border-top:1px solid #fff; /* Fallback style */
+border-top:1px solid rgba(255, 255, 255, 0.5);
+padding:0 5px 3px;
+/* Фон кнопки */
+background:#4477a1;
+background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1)}
+ 
+.mbut:hover, .unimgb:hover, .unimgf:hover, .knopkidiv a:hover, .menubar a:hover {
+opacity:0.5;
+border-color:#00F;
+/*свечение*/
+-webkit-box-shadow:0px 0px 10px rgba(0,0,255,1);
+box-shadow: 0px 0px 10px rgba(0,0,255,1)}
+
+.unimgb {float:left;}
+
+.unimgf {float:right;}
+
+.unimgb, .unimgf {	width:110px !important;
+					margin-bottom:14px;
+					margin-top:14px;}
+
+.button, .inform {	display:inline-block;
+					width:auto;
+					margin:0 auto;
+					font:normal 18px 'Trebuchet MS',Arial, Helvetica;
+					font-family:Verdana, Geneva, sans-serif;
+					text-align:center;
+					color:#FFF;
+					text-shadow:0 1px 0 rgba(0,0,0,0.4);
+					border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+					border:1px solid rgba(0, 0, 0, 0.3);
+					-webkit-box-shadow:0 0 10px #0CF;
+					box-shadow:0 0 10px #0CF;
+					background:#4477a1;
+					background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1)}
+
+.button, .button span, .inform, .inform span {	border-radius:.3em}
+
+.button span, .inform span {display:block;
+							border-top:1px solid #fff; /* Fallback style */
+							border-top:1px solid rgba(255, 255, 255, 0.5);
+							padding:0 8px 3px;
+/* Фон кнопки */
+							background:#4477a1;
+							background:-moz-linear-gradient(-90deg, #81a8cb, #4477a1)}
+
+.button:active {/* Перемещаем на 3px при нажатии кнопки */
+				position:relative;
+				top:3px;}
+
+.button:hover, .inform:hover {	opacity:0.5;
+								border-color:#00F;
+/*свечение*/
+								-webkit-box-shadow:0px 0px 10px rgba(0,0,255,1);
+								box-shadow: 0px 0px 10px rgba(0,0,255,1)}
+
+.inform {	display:block;
+			max-width:300px;
+			margin-top:12px;
+			text-align:left;}
+
+
+
+
+
+
+/* иконки видео и книг */
+#ex5 {
+width:980px;
+margin:10px auto;
+height:auto;
+font-size:1.1em;
+padding:0;
+text-align:center}
+
+#navigation #ex5 {
+width:100% !important} /* ширина ex5 под блоком видео */
+
+.film #ex5 {
+width:100% !important} /* ширина ex5 под блоком видео */
+
+#ex5 img {
+opacity:1;
+max-width:184px;
+max-height:250px;
+padding:5px;
+margin:4px;
+border:1px hsla(330,60%,45%,0) ridge; 
+border-radius:10px}
+
+#ex5 img:hover {
+opacity:.7;
+background:hsla(330,100%,45%,1);
+border-color:hsla(330,60%,30%,.8)}
+
+/* иконка с картинкой и текстом */
+.sh {
+display:inline-block;
+text-align:center;
+width:198px;
+padding:1px;
+height:auto;
+margin-right:4px;
+margin-bottom:16px}
+
+.sh a:last-child {
+display:inline-block;
+color:hsla(330,60%,0%,1);
+text-align:center;
+width:180px;
+height:auto}
+
+.sh p, .sh a:last-child {
+text-align:center;
+margin:4px auto;
+font-family:Verdana, Geneva, sans-serif;
+font-size:16px;
+padding:2px;
+line-height:20px}
+
+.sh a:hover:last-child, .spisok:hover, .spisok2:hover  {
+color:hsla(330,60%,100%,1);
+background-color:hsla(330,60%,45%,1)}
+/*-----------------------------------------------------*/
+
+
+/* список статей */
+.spisok {
+display:block;
+width:590px;
+color:hsla(330,60%,0%,1);
+line-height:34px;
+vertical-align:middle;
+text-align:left;
+text-indent:8px;
+margin:6px auto;
+font-size:20px;
+font-family:'Times New Roman';
+font-style:normal;
+font-weight:normal;
+float:left;
+text-shadow:0 -1px 0 hsla(219,41%,36%,.9)}
+
+.spisok2 {
+display:inline-block;
+width:auto;
+color:hsla(330,60%,0%,1);
+line-height:34px;
+vertical-align:middle;
+text-align:center;
+margin:6px auto;
+padding:0 6px;
+font-size:18px;
+font-family:'Times New Roman';
+font-style:normal;
+font-weight:normal;
+text-shadow:0 -1px 0 hsla(219,41%,36%,.9)}
+
+.here {
+background:#03F !important;
+color:#FFF}
+
+.spisok:last-child  {
+margin-bottom:30px}
+
+.pic {
+display:block}
+
+/* навигация по статьям */
+.jour {
+display:block;
+width:600px;
+height:40px;
+margin:0 auto}
+
+.jour a {
+width:120px}
+
+.fw {
+float:right}
+
+.bk {
+float:left}
+
+.bld {
+font-weight:bold !important}
+
+.t-i-0 {
+text-indent:0 !important}
+
+.t-i-0center {/* отступ 0, выравнивание по центру */
+text-indent:0 !important;
+text-align:center !important;
+margin-top:14px !important;
+margin-bottom:10px !important}
+
+.crs {
+font-style:italic;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:13px}
+
+.otstup { 
+margin-top:10px !important;
+margin-bottom:10px !important}
+
+.avtor {
+margin:-12px auto 16px;
+text-align:center;
+text-indent:0;
+font-size:1.2em;
+font-weight:bold;
+color:#B82E5E; /* Запасной стиль для старых браузеров */
+color:hsla(319,61%,35%,1)}
+
+#bottomdiv {
+height:20px;
+width:840px;
+margin:10px auto 40px;
+text-align:center !important;
+clear:both;}
+			
+.bottomdiv a:first-child {
+float:left;
+width:110px}
+
+.bottomdiv a:last-child {
+float:right;
+width:110px}
+
+.gody {
+display:block;
+margin:20px auto;
+width:auto;
+height:auto;
+text-align:center}
+
+.gody a {
+margin-right:6px}
+/*------------------------------------------------------------------------------------------------*/
+
+/* кнопки навигации по сайту */
+.navbut {
+display:block;
+color:white; /* Запасной стиль для старых браузеров */
+clear:both;
+width:1140px;
+height:auto;
+margin:10px auto;
+padding:14px;
+border-bottom:solid 1px hsla(330,45%,55%,1);
+border-top:solid 1px hsla(330,45%,55%,1)}
+
+.navbut:first-child {
+border-top:solid 0px hsla(330,45%,55%,1);
+margin-top:6px}
+
+.navbut:last-child {
+border-bottom:solid 0px hsla(330,45%,55%,1);
+margin-bottom:0;
+margin-top:12px;}
+
+.navbut a, .btpoisk, .download a, .gohome {
+display:inline-block;
+width:auto;
+margin-right:8px;
+font:normal 1em 'Arial', 'Helvetica CY', 'Nimbus Sans L', sans-serif;
+text-align:center;
+color:hsla(0,0%,100%,1);
+color:white; /* Запасной стиль для старых браузеров */
+text-shadow:0 1px 0 hsla(0,0%,0%,0.4);
+border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+border:1px solid hsla(0,0%,0%,0.6);
+-webkit-box-shadow:0 0 8px hsla(330,60%,45%,1);
+box-shadow:0 0 8px hsla(330,60%,45%,1);
+/* радиус кнопок навигации */
+-webkit-border-radius:0em;
+border-radius:0em}
+
+/*свечение кнопки навигации по сайту*/
+.navbut a:hover, .btpoisk:hover, .glbt a:hover, .download a:hover, .gohome:hover {
+opacity:0.7;
+color:hsla(330,70%,45%,1);
+border-color:hsla(330,60%,25%,1);
+-webkit-box-shadow:0 0 26px hsla(219,60%,45%,1);
+box-shadow:0 0 26px hsla(219,60%,45%,1)}
+
+.navbut a span, .download a span {
+display:inline-block;
+border-top:1px solid #fff; /* Fallback style */
+border-top:1px solid hsla(0,0%,100%,0.5);
+padding:0 6px 4px}
+
+.navbut a span {
+font-size:12px}
+
+/* кнопка ссылки в тексте */
+.mbut3 {
+display:inline;
+padding:2px 1px;
+margin:0;
+padding:5px;
+width:auto;
+font-weight:100 !important;
+font-size:13px !important;
+color:inherit;
+color:hsla(219,60%,0%,1);
+border:1px solid hsla(210,60%,45%,.5);
+line-height:90%;
+font-family:Verdana, Geneva, sans-serif;
+background:#cedce7; /* Old browsers */
+background:-moz-linear-gradient(top, hsla(206,34%,86%,1) 39%, hsla(199,12%,40%,1) 100%); /* FF3.6+ */
+background:linear-gradient(to bottom, hsla(206,34%,86%,1) 39%,hsla(199,12%,40%,1) 100%) /* W3C */}
+
+.mbut3:hover {
+color:hsla(330,60%,45%,1);
+border:1px solid hsla(330,60%,45%,1)}
+/* --------------------------------------------------------------------------------------- */
+
+/* Фон кнопки */
+.navbut a, .navbut a span, .btpoisk, .glbt a, .download a, .download a span, .gohome, .gohome span {
+background:#2E5EB8; /* Old browsers */
+background:hsla(219,60%,45%,1);
+background:-moz-linear-gradient(top, hsla(206,64%,72%,1) 22%, hsla(212,67%,36%,1) 100%); /* FF3.6+ */
+background:linear-gradient(to bottom, hsla(206,64%,72%,1) 22%,hsla(212,67%,36%,1) 100%) /* W3C */}
+
+
+
+/* кнопка на главную */
+.gohome {
+min-width:144px;
+color:white;
+margin-top:18px;
+margin-bottom:18px;
+margin-right:30px;
+font-size:1.1em}
+
+.gohome:last-child {
+margin-right:0}
+
+.gohome, .gohome span {
+border-radius:.3em}
+
+.gohome span {
+display:block;
+border-top:1px solid #fff; /* Fallback style */
+border-top:1px solid hsla(330,60%,100%,0.5);
+padding:0 4px 2px}
+/* --------------------------------------------- */
+
+/* кнопки скачать */
+.download {
+display:block;
+width:auto;
+height:auto;
+margin:0 auto;
+min-width:300px;
+text-align:center}
+
+.download a {
+margin:0 12px;
+padding:5px;
+min-width:94px}
+
+.download a span {
+padding:4px 3px;
+font-family:Tahoma, Geneva, sans-serif Arial;
+font-weight:400}
+
+.onmain {
+margin:30px auto 20px;
+text-indent:0}
+
+	 
+/* Перемещаем на 3px при нажатии кнопки */
+.download a:active, .gohome:active {
+position:relative;
+top:3px}
+
+
+/* приподнятый слой */
+#ex5 img, .sh p, .sh a:last-child, .spisok, .spisok2 {
+position:relative;
+background:hsla(330,60%,100%,1);
+-webkit-box-shadow:0 1px 4px hsla(330,60%,0%,.3), 0 0 40px hsla(330,60%,0%,.1) inset;
+box-shadow:0 1px 4px hsla(330,60%,0%,.3), 0 0 40px hsla(330,60%,0%,.1) inset;
+-webkit-box-shadow:0 15px 10px -10px hsla(330,60%,0%,.5), 0 1px 4px hsla(330,60%,0%,.3), 0 0 40px hsla(330,60%,0%,.1) inset;
+box-shadow:0 15px 10px -10px hsla(330,60%,0%,.5), 0 1px 4px hsla(330,60%,0%,.3), 0 0 40px hsla(330,60%,0%,.1) inset}
+/* ---------------------------------------------- */
+
+/* текст под названием фильма */
+h3 {
+color:#B82E5E;	
+color:hsla(319,61%,35%,1);
+font-style:italic;
+font-size:1.2em;
+margin:0 auto 20px;
+font-weight:bold}
+/* ---------------------------- */
+
+/* div фильма */
+#navigation {
+width:auto;
+max-width:830px;
+min-width:600px;
+height:auto;
+margin:22px auto}
+
+#navigation h1 {
+margin:4px auto 14px}
+
+.film {
+display:block;
+width:auto;
+max-width:900px;
+min-width:640px;
+height:auto;
+margin:10px auto}
+
+.film .yashare-auto-init {
+margin:20px auto}
+
+.yadisk {
+width:900px;
+height:600px;
+margin:0 auto}
+
+/****************************/
+
+/* блок навигации по книге */
+
+.pred2 {
+display:inline-block;
+width:auto;
+max-width:240px;
+min-height:250px;
+margin:0;
+text-align:center;
+vertical-align:top;
+position:relative;
+margin-top:10px;
+padding:.7em}
+
+#nevidno {
+display:none;
+width:auto;
+max-width:70%;
+margin:0 auto;
+text-align:center;
+vertical-align:top;
+position:relative;
+margin-top:10px;
+padding:1em}		
+
+#nevidno {
+-webkit-box-shadow:0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+box-shadow:0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+-webkit-box-shadow: 0 15px 10px -10px hsla(330,60%,45%,0.5), 0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+box-shadow: 0 15px 10px -10px hsla(330,60%,45%,0.5), 0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset}		
+
+.obk2 {/* блок с обложкой */
+display:inline-block;
+min-height:250px;
+position:relative;
+margin-right:10px;
+margin-left:0;
+margin-top:10px;
+padding:1em}
+
+.obk2, .pred2{
+-webkit-box-shadow:0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+box-shadow:0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+-webkit-box-shadow: 0 15px 10px -10px hsla(330,60%,45%,0.5), 0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset;
+box-shadow: 0 15px 10px -10px hsla(330,60%,45%,0.5), 0 1px 4px hsla(330,60%,45%,0.3), 0 0 40px hsla(330,60%,45%,0.1) inset}
+
+.pred2:before, .pred2:after, .obk2:before, .obk2:after {
+content:"";
+position:absolute;
+z-index:-2}
+
+
+
+
+
+
+.glbt {
+display:inline-block;
+height:auto;
+width:auto;
+min-width:120px;
+margin:.5em auto .7em;
+text-align:center}
+
+.glbt a {
+width:26px;
+height:22px;
+display:inline-block;
+color:hsla(0,0%,100%,1);
+font-size:1em;
+text-shadow:0 1px 0 hsla(0,0%,0%,0.4);
+border:1px solid #9c9c9c; /* Запасной стиль для старых браузеров */
+border:1px solid hsla(0,0%,0%,0.6);
+-webkit-box-shadow:0 0 8px hsla(330,60%,45%,1);
+box-shadow:0 0 8px hsla(330,60%,45%,1);
+
+/* радиус кнопок навигации */
+-webkit-border-radius:6px;
+border-radius:6px;
+text-align:center;
+margin:3px;
+opacity:1;
+/* -------------------------- */
+
+/*transition*/
+-webkit-transition:all 0.3s ease;
+-moz-transition:all 0.3s ease;
+-o-transition:all 0.3s ease;
+-ms-transition:all 0.3s ease;}
+
+#ex5 img:before, #ex5 img:after, #nevidno:before, #nevidno:after, .sh p:before, .sh a:last-child:before, .sh p:after, .sh a:last-child:after, .spisok:before, .spisok:after, .spisok2:before, .spisok2:after, .nvbk a:before, .nvbk a:after {
+content:"";
+position:absolute;
+z-index:-2}
+
+/* анимация */
+#ex5 img, .sh a, .mbut, .unimgb, .unimgf, .knopkidiv a, .menubar a, nav a, .navbut a, .btpoisk, .download a, .gohome, .mbut3, .spisok, .spisok2, .newbut {
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease;
+transition:all 0.5s ease}
+
+/* поисковая форма */
+.ya-site-form ya-site-form_inited_no {
+border:0;
+margin:20px auto;
+display:inline-block}
+
+.fmpoisk {
+display:inline-block;}
+
+/* поле ввода поискового запроса */
+.poisk {
+padding:0px;}
+
+/* кнопка поиск на сайте */
+.btpoisk {
+padding-bottom:2px;
+font-size:12px}
+/* --------------------- */
+
+/* фильм online */
+iframe {
+border:0;
+margin-bottom:10px}
+
+.kratsod {
+text-align:justify;
+text-indent:26px;
+padding:0 100px;
+margin:0;
+font:12pt/17pt verdana}
+
+.colorname, .perslovo {
+color:#B82E5E;
+color:hsla(319,61%,35%,1);
+font-weight:bolder;
+font-size:110%}
+
+.perslovo {
+display:inline-block;
+font-style:italic;
+border-bottom:1px ridge #B82E5E;
+margin-bottom:12px;
+margin-top:12px}
+
+#perehod {
+width:700px;
+height:auto;
+margin:20px auto;
+text-align:center}
+	
+#perehod a {
+display:inline-block;
+width:105px;
+height:34px;
+margin-right:6px}
+
+
+/* КНИГА  ---------------------------------------------------------------------------------------------------------*/
+
+.textred {
+color:red !important}
+
+.bookheader h1{/* заголовок книги в содержании */
+display:inline-block;
+width:auto;
+height:auto;
+padding:.2em 1em;
+/*background-color:#C2D9F0;*/
+background-color:hsla(210,60%,85%,0.8)}
+
+.soderjanie {/* блок с обложкой и навигацией по книге */
+display:inline-block;
+width:auto;
+padding:2em;
+height:auto;
+margin:1em auto 2em;
+background-color:hsla(210,0%,100%,1)}
+
+.parts {
+display:inline-block;
+color:black;
+font-size:1.4em;
+font-weight:bold;
+padding:.1em 0.8em;
+margin:8px auto;
+text-align:center;
+border-bottom:dotted #4477a1 1px}
+
+.ten1 {/* тень - приподнятый бокс */
+position:relative;
+-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+box-shadow:0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+-webkit-box-shadow:0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+box-shadow:0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset}	   
+ 
+.ten1:before, .ten1:after {/* ????????????????????? */
+content:"";
+position:absolute;
+z-index:-2}
+
+.oblojka {
+display:inline-block;
+width:auto;
+padding:1em;
+margin:0 1em 1em;
+vertical-align:top}
+
+.oblojka2 {
+display:inline-block;
+width:auto;
+max-width:240px;
+min-height:250px;
+margin:0;
+text-align:center;
+vertical-align:top;
+position:relative;
+padding:.7em}
+
+ul.nonicon{
+list-style:none}
+
+.oblojka ul li{
+margin-bottom:16px;
+text-align:left;
+list-style-type:none}
+
+.navigaciya {/* кнопка ссылки в тексте */
+display:inline;
+padding:5px 4px;
+margin:8px 0 0 0;
+width:auto;
+font-weight:bold;
+font-size:13px;
+text-align:left;
+color:hsla(210,60%,0%,.8);
+border:1px solid hsla(210,60%,45%,.8);
+font-family:Verdana, Geneva, sans-serif;
+
+background: -moz-linear-gradient(top, hsla(0,0%,75%,1) 0%, hsla(0,0%,100%,1) 50%, hsla(0,0%,74%,1) 100%);
+background: linear-gradient(to bottom,  hsla(0,0%,75%,1) 0%,hsla(0,0%,100%,1) 50%,hsla(0,0%,74%,1) 100%)}
+
+.navigaciya:hover {
+background: -moz-linear-gradient(top,  hsla(0,0%,100%,1) 0%, hsla(0,0%,75%,1) 50%, hsla(0,0%,100%,1) 100%);
+background: linear-gradient(to bottom, hsla(0,0%,100%,1) 0%,hsla(0,0%,75%,1) 50%,hsla(0,0%,100%,1) 100%);
+
+color:hsla(210,100%,50%,1);
+border:1px solid hsla(210,60%,45%,.9)}
+
+.trans {/* плавное изменение свойства */
+-webkit-transition:all 0.7s ease;
+-moz-transition:all 0.7s ease;
+-o-transition:all 0.7s ease;
+-ms-transition:all 0.7s ease;
+transition:all 0.7s ease}
+
+.bookpages {/* блок details */
+display:block;
+width:auto;
+background-color:hsla(210,60%,85%,0.8);
+margin:20px auto 10px;
+padding:2px}
+
+.stranicy {/* блок summary */
+display:block;
+background-color:hsla(210,60%,85%,0.8);
+padding:2px;
+font-size:1.2em;
+font-weight:bold;
+text-shadow:0 0 1px #cfcfcf}
+
+details summary::-webkit-details-marker { /* убрать маркер с details  */ 
+display:none}
+
+details summary i {/* marker set */
+float:right;
+margin-right:6px;
+box-shadow:0 0 1px #666; 
+border-radius:4px;
+height:17px;
+width:19px;
+color:hsla(0,0%,25%,1);
+background-color:hsla(0,0%,100%,1);
+padding:2px}
+
+details summary i:hover {
+color:hsla(330,90%,45%,1)}
+
+.pages {/* блок section */
+display:none;
+max-width:94%;
+text-align:center;
+background-color:hsla(210,60%,100%,0.8);
+border-radius:10px;
+margin:.8em;
+padding:4px}		
+
+.pages a, .oblojka2 a {/* кнопка номера страницы */
+display:inline-block;
+text-align:center;
+width:26px;
+height:22px;
+margin:2px;
+padding:2px 1px 1px;
+font-size:1em;
+color:hsla(330,90%,0%,.7);
+border:1px solid hsla(0,0%,0%,0.4);
+-webkit-border-radius:6px;
+border-radius:6px;
+-webkit-box-shadow:0 0 3px hsla(210,60%,45%,1);
+box-shadow:0 0 3px hsla(210,60%,45%,1);
+-webkit-transition:all .4s ease;
+-moz-transition:all .4s ease;
+-o-transition:all .4s ease;
+-ms-transition:all .4s ease;
+transition:all .4s ease}
+
+.pages a:hover, .oblojka2 a:hover {/* фокус кнопки номера страницы */
+color:hsla(330,90%,45%,1);
+border-color:hsla(330,90%,45%,1);
+background-color:hsla(210,60%,85%,.8);
+-webkit-box-shadow:0 0 3px hsla(330,60%,45%,1);
+box-shadow:0 0 3px hsla(330,60%,45%,1)}
+
+
+.nameofbook1, .nameofbook2 {/* название книги на странице */
+min-width:660px;
+font-weight:bold;
+font-size:1.3em;
+color:hsla(330,60%,45%,1);
+text-shadow: 1px 2px 0 hsla(45,19%,63%,0.3), 0 1px 0 hsla(0,0%,100%,1)}					
+
+					
+.raised {/* страницы книги */
+position:relative;
+width:520px;
+height:auto;
+min-height:800px;
+padding:2em 3em 2em 4em;
+margin:.5em auto;
+background-color: hsla(0,0%,100%,1);
+-webkit-box-shadow:0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+box-shadow:0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+-webkit-box-shadow:0 15px 10px -10px rgba(0,0,0,.5), 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+box-shadow:0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset}
+
+.raised h2 {
+margin-top:20px;
+margin-bottom:20px}
+
+.fmd {/* страницы книги Достоевский */
+display:block;
+width:620px;
+height:auto;
+padding:1px 1px 20px 1px;
+margin:0 auto;
+white-space:normal;
+background-color: hsla(0,0%,100%,1);
+-webkit-box-shadow:0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+box-shadow:0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+-webkit-box-shadow:0 15px 10px -10px rgba(0,0,0,.5), 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset;
+box-shadow:0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) inset}
+
+.copiya {
+display:block;
+position:relative;
+width:502px;
+height:auto;
+padding:0;
+margin:76px auto 0}
+
+.fmd .copiya p {
+margin:0;
+text-align:justify;
+text-indent:22pt;
+line-height:116% !important;
+font:12.6pt/17pt "Times New Roman", Times, serif;
+width:auto}
+
+.fmd1 {
+margin-bottom:45px;
+font-weight:normal;
+font-family:'Academy Old'}
+
+.fmdnote {
+display:inline;
+vertical-align:super;
+margin-right:3px;
+font-weight:bold;
+color:hsla(339,60%,45%,1);
+font-size:11px !important;
+font-family:Verdana, Geneva, sans-serif}
+
+.fmdcrs {
+font-style:italic !important}
+
+.fmdsub {
+font-size:60%}
+
+.fmdbotnote {
+font-size:96% !important;
+line-height:130% !important}
+
+.fmdfooter{/* подвал страницы книги: значок принтера, соц. сети, номер страницы */
+display:block;
+width:460px;
+height:auto;
+margin:20px auto 0;
+padding-top:10px;
+border-top:1px solid hsla(330,60%,45%,1);
+text-align:center}
+
+#fmdpechat {
+display:block;
+width:22px;
+height:22px;
+background-image:url(/img/pechat.png);
+margin-top:16px;
+margin-right:66px; /* выравнивание кнопки соц. сетей по центру */
+float:left}
+
+.t-i-0 t-a-c {/* отступ 0, выравнивание по центру */
+text-indent:0 !important;
+text-align:center !important}
+
+.fmdh2 {
+font-size:1.3em}
+
+.t-a-r {
+text-align:right !important}
+
+.fmdstrokal, .fmdstrokar, .fmdstrokali {
+position:absolute;
+display:inline-block;
+color:hsla(339,60%,45%,1);
+font-size:10pt;
+font-style:normal}
+
+.fmdstrokal {
+left:-42pt}
+
+.fmdstrokali {
+left:-20pt}
+
+.fmdstrokar {
+right:-16pt}
+
+
+
+.forfoto {/* ширина страницы для фотоальбома */
+width:750px}
+
+.raised .foto {/* максимальная ширина картинки для фотоальбома */
+max-width:730px !important}
+
+.raised p {
+margin:0;
+text-align:justify;
+text-indent:35px;
+font:12pt/17pt verdana}
+
+.fcap {
+font:12pt/17pt verdana}
+
+#nomstr, #fotostr {/* номер страницы */
+color:hsla(0,0%,0%,1);
+font-size:11pt;
+font-weight:bold;
+float:right}
+
+p#nomstr::before{
+margin-right:6px}
+
+p#fotostr::before {
+margin-left:16px}
+
+p#nomstr::before {
+content:"страница "}
+
+p#fotostr::before {
+content:"	  фото "}
+
+.nvbk {/* навигация по книге*/
+width:620px;
+height:auto;
+margin:0.7em auto;
+font-weight:bold;
+padding:0.5em 0;
+text-align:center}
+
+.nvbk a {
+position:relative;
+display:inline-block;
+width:120px;
+font-size:15px;
+padding:0.3em 0.5em;
+background:hsla(339,60%,100%,1);
+border:1px solid hsla(339,60%,100%,1);
+-webkit-box-shadow:0 1px 4px hsla(339,60%,45%,0.3), 0 0 40px hsla(339,60%,45%,0.1) inset;
+box-shadow:0 1px 4px hsla(339,60%,45%,0.3), 0 0 40px hsla(339,60%,45%,0.1) inset;
+-webkit-transition:all 0.5s ease;
+-moz-transition:all 0.5s ease;
+-o-transition:all 0.5s ease;
+-ms-transition:all 0.5s ease}
+
+.nvbk a:first-child {
+float:left}
+
+.nvbk a:last-child {
+float:right}
+
+.cont {
+margin-right:90px;
+margin-left:90px}
+
+/* тень */
+.nvbk a:before, .nvbk a:after {
+content:"";
+position:absolute;
+z-index:-2}
+ 
+.nvbk a:before {
+top:10px;
+bottom:10px;
+left:0;
+right:0;
+-webkit-box-shadow:0 0 15px hsla(0,0%,0%,0.6);
+box-shadow:0 0 15px hsla(0,0%,0%,0.6);
+border-radius:10px/20px}
+
+.nvbk a:link, .nvbk a:visited {color:hsla(0,0%,0%,1)}
+
+.nvbk a:hover {
+border:1px solid hsla(219,60%,45%,1);
+/*свечение*/
+-webkit-box-shadow:0 0 30px hsla(219,60%,45%,0.6), 0 0 100px hsla(339,60%,45%,0.5) inset;
+box-shadow:0 0 30px hsla(219,60%,45%,0.6), 0 0 100px hsla(339,60%,45%,0.5) inset}
+
+
+.bookfooter{/* подвал страницы книги: значок принтера, соц. сети, номер страницы */
+display:block;
+width:auto;
+height:auto;
+margin:40px auto 0;
+padding-top:10px;
+border-top:1px solid hsla(330,60%,45%,1);
+text-align:center}
+
+/* кнопка печати страницы */
+#pechat {
+display:block;
+width:22px;
+height:22px;
+background-image:url(/img/pechat.png);
+margin-right:104px; /* выравнивание кнопки соц. сетей по центру */
+float:left}
+
+.yashare-auto-init {/* кнопка социальных сетей */
+display:inline-block;
+width:auto;
+margin:16px 0}
+
+#orphus {/* система Orfus */
+display:block;
+width:auto;
+margin:6px auto 0 !important;
+padding:0;
+text-align:center !important}
+
+
+/* киносъемочная группа */
+
+.unit {/* контейнер для фото и имени */
+display:inline-block;
+width:280px;
+height:auto;
+font-weight:bold;
+font-size:1.2em;
+border-right:2px ridge hsla(210,60%,45%,1);
+border-bottom:2px ridge hsla(210,60%,45%,1)}
+
+.unit a img:hover {
+opacity:.7;
+background-color:hsla(210,60%,45%,.8) !important}
+			
+.ft {
+float:left;
+margin-right:6px}
+
+.prof {
+margin:14px auto 8px}
+
+.reg {
+font-size:23px;
+color:#06C;
+margin:0 auto}
+
+/* страница фильма */
+
+#perehod {/* номера серий */
+width:700px;
+height:auto;
+margin:20px auto;
+text-align:center}
+	
+#perehod a {
+display:inline-block;
+width:105px;
+height:34px;
+margin-right:6px}
+
+.audioonline {
+border:0;
+overflow:hidden;
+width:452px;
+height:53px}

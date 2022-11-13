@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#navigation p {font-size:18px;}
+
+.chasti {width:auto;
+		 height:auto;
+		 margin:20px auto 10px;
+		 max-width:500px;}
+		 
+.chasti a {margin-bottom:14px;
+		   width:90px;}
+
+.chasti .mbut {font-size:18px;}
+
+#ser1 {background:url(/img/knopki/seriya1.png);}
+#ser2 {background:url(/img/knopki/seriya2.png);}
+#ser3 {background:url(/img/knopki/seriya3.png);}
+#ser4 {background:url(/img/knopki/seriya4.png);}
+#ser5 {background:url(/img/knopki/seriya5.png);}
+#ser6 {background:url(/img/knopki/seriya6.png);}
+#ser7 {background:url(/img/knopki/seriya7.png);}
+#ser8 {background:url(/img/knopki/seriya8.png);}
+#ser9 {background:url(/img/knopki/seriya9.png);}
+#ser10 {background:url(/img/knopki/seriya10.png);}
+#ser11 {background:url(/img/knopki/seriya11.png);}
+#ser12 {background:url(/img/knopki/seriya12.png);}
+#ser13 {background:url(/img/knopki/seriya13.png);}
+#ser14 {background:url(/img/knopki/seriya14.png);}
+#ser15 {background:url(/img/knopki/seriya15.png);}
+#ser16 {background:url(/img/knopki/seriya16.png);}
+
+h1 {
+font-family:"Times New Roman", Times, serif;
+font-weight:normal;
+font-size:22pt;
+margin:10px auto 6px !important;}
+	
+#navigation .videolek {display:block;
+				  width:72px;
+				  height:72px;
+				  margin:10px auto;
+				  background-image:url(/img/knopki/skvideo.png);}

@@ -1,0 +1,42 @@
+@charset "windows-1251";
+/* CSS Document */
+
+.csonline {display:block;
+		   width:500px;
+		   height:auto;
+		   margin:20px auto;
+		   border-bottom:#000 ridge 1px;
+		   text-align:left;}
+		
+.csonline img {display:inline-block;
+			   margin-left:10px;}
+
+.csonline a {display:inline-block;
+			 width:105px;
+			 height:34px;
+			 margin-top:8px;
+			 margin-left:14px;
+			 background-image:url(/img/fotoalbom/online.png);}
+			
+.csonline a:first-child {margin-left:10px;}
+
+#online {display:block;
+		 width:600px;
+		 height:auto;
+		 margin:0 auto;}
+
+.fb {display:inline-block;
+	 width:142px;
+	 height:164px;
+	 margin:0;}
+		
+.fb a {display:block;
+	   width:142px;
+	   height:100px;}
+		
+.fb p {text-align:center;
+	   margin:8px auto;
+	   font-weight:bold;
+	   border:thick;
+	   border-style:dotted;
+	   border-width:1px;}
